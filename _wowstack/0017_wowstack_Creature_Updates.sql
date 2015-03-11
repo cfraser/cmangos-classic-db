@@ -1,0 +1,41 @@
+-- Correct AI for Befouled Water Elemental
+UPDATE `creature_template_spells` SET `spell3`='865' WHERE `entry`='3917';
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `action1_param3`, `action2_type`, `action2_param1`, `action2_param2`, `action2_param3`, `action3_type`, `action3_param1`, `action3_param2`, `action3_param3`, `comment`) VALUES ('391703', '3917', '0', '0', '100', '1', '6000', '10000', '10000', '15000', '11', '865', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'Befouled Water Elemental - Cast Frost Nova');
+
+-- Correct Immune Mask for Alterac Yeti
+UPDATE `creature_template` SET `MechanicImmuneMask`='8461912' WHERE `Entry`='13959';
+
+-- Correct health for Mr. Bigglesworth
+UPDATE `creature_template` SET `MinLevelHealth`='26', `MaxLevelHealth`='26' WHERE `Entry`='16998';
+
+-- Add AI for Spitelash Siren
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6195;
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619501,6195,1,0,100,0,0,0,0,0,21,0,0,0,20,0,0,0,22,1,0,0,'Spitelash Siren - Prevent Combat Movement and Prevent Melee and Set Phase 1 on Spawn');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619502,6195,9,1,100,1,5,30,2300,3900,11,6660,1,0,40,2,0,0,0,0,0,0,'Spitelash Siren - Cast Shoot and Set Ranged Weapon Model (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619503,6195,9,1,100,1,5,30,15000,20000,11,12551,1,1,40,2,0,0,0,0,0,0,'ASpitelash Siren - Cast Frost Shot and Set Ranged Weapon Model (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619504,6195,9,1,100,1,30,80,1000,1000,21,1,1,0,20,1,0,0,0,0,0,0,'Spitelash Siren - Start Combat Movement and Start Melee at 30 Yards (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619505,6195,9,1,100,1,0,10,1000,1000,21,1,0,0,40,1,0,0,20,1,0,0,'Spitelash Siren - Start Combat Movement and Set Melee Weapon Model and Start Melee Below 10 Yards (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619506,6195,9,1,100,1,11,25,1000,1000,21,0,1,0,20,0,0,0,0,0,0,0,'Spitelash Siren - Prevent Combat Movement and Prevent Melee at 25 Yards (Phase 1)');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619507,6195,9,1,100,1,0,5,10000,17000,11,11831,1,0,0,0,0,0,0,0,0,0,'Spitelash Siren - Cast Frost Nova');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (619508,6195,7,0,100,0,0,0,0,0,22,1,0,0,40,1,0,0,0,0,0,0,'Spitelash Siren - Set Phase 1 and Set Melee Weapon Model on Evade');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('619509', '6195', '2', '0', '100', '1', '25', '25', '15000', '15000', '11', '11640', '0', 'Spitelash Siren - Cast Renew at 25% HP');
+
+-- Correct AI for Shadowhide Slayer
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('43103', '431', '2', '0', '100', '0', '25', '25', '25', '25', '11', '8599', '0', 'Shadowhide Slayer - Cast Enrage at 25% HP');
+
+-- Fix AI for Brontus
+UPDATE `creature_template_spells` SET `spell3`='6266' WHERE `entry`='5827';
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('582703', '5827', '0', '0', '100', '1', '2000', '3000', '6000', '9000', '11', '6266', '1', 'Brontus - Cast Kodo Stomp');
+
+-- Implemented AI for Blackened Ancient
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 4029;
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('402901', '4029', '0', '0', '100', '1', '0', '5', '15000', '20000', '11', '7272', '1', 'Blackened Ancient - Cast Dust Cloud');
+INSERT INTO `creature_template_spells` (`entry`, `spell1`) VALUES ('4029', '7272');
+
+-- Implemented AI for Gibblesnik
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 14427;
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1442701', '14427', '0', '0', '100', '1', '0', '5', '5000', '9000', '11', '7405', '1', 'Gibblesnik - Cast Sunder Armour');
+
+-- Correct AI for Tideress
+UPDATE `creature_template_spells` SET `spell3`='865' WHERE `entry`='12759';
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1275903', '12759', '0', '0', '100', '1', '3000', '5000', '10000', '15000', '11', '865', '1', 'Tideress - Cast Frost Nova');
