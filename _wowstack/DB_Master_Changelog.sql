@@ -212,3 +212,12 @@
 -- Bloodfury Slayer Flee at 15% HP
 -- Bloodfury Roguefeather Flee at 15% HP
 -- Razormane Warfrenzy Flee at 15% HP
+-- Correct AI for Befouled Water Elemental
+-- Correct Immune Mask for Alterac Yeti
+-- Correct health for Mr. Bigglesworth
+-- Add AI for Spitelash Siren
+-- Correct AI for Shadowhide Slayer
+-- Fix AI for Brontus
+-- Implemented AI for Blackened Ancient
+-- Implemented AI for Gibblesnik
+-- Correct AI for Tideress
