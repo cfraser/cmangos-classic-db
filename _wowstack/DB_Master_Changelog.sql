@@ -221,3 +221,25 @@
 -- Implemented AI for Blackened Ancient
 -- Implemented AI for Gibblesnik
 -- Correct AI for Tideress
+-- Correct movement for several Rotting Dead creatures
+-- Xavian Hellcaller no longer runs in fear and casts hellfire
+-- Cenarion Vindicator now casts Corrupt Forces of Nature
+-- Mist Howler should now call for help
+-- Mugglefin can now move again
+-- Dal Bloodclaw now has his Thistlefur Coat back
+-- Correct spawn position for Trigore the Lasher
+-- Correct prerequisite for Flash Bomb Recepie
+-- Twilight Avenger will now cast Enrage
+-- Bleakheart Hellcaller should now cast the correct spells
+-- Bleakheart Satyr should now cast the correct spells
+-- Bleakheart Shadowstalker will no longer enrage
+-- Bleakheart Trickster will no longer enrage
+-- Oakpaw should now cast his Corrupted abilities
+-- Stone Fury should now have a stroll around his spawn position
+-- Lost Soul should now patrol her spawn point looking for unsuspecting victims!
+-- 19 NPC's outside The Scarlet Monostary and The Scarlet Watchpost no longer have broken legs and are able to move
+-- Remove incorrect speech for Kobold Digger
+-- Remove the Silvermane Stalker from the trees
+-- Move a Silvermane Stalker from its friend
+-- Move another Silvermane Stalker from the trees
+-- Prevent the key from Klaven's Tower dropping from creatures
