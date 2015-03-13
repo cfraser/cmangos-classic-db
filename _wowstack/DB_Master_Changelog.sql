@@ -243,3 +243,4 @@
 -- Move a Silvermane Stalker from its friend
 -- Move another Silvermane Stalker from the trees
 -- Prevent the key from Klaven's Tower dropping from creatures
+-- Brontus now walks at the correct speed as has his shiny rare elite badge
