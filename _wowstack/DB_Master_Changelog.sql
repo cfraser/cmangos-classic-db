@@ -244,3 +244,18 @@
 -- Move another Silvermane Stalker from the trees
 -- Prevent the key from Klaven's Tower dropping from creatures
 -- Brontus now walks at the correct speed as has his shiny rare elite badge
+-- All prowlers will now actually prowl
+-- Fix Rank and Speed for Swiftmane
+-- Humar the Pridelord is now a Rare Elite
+-- Humar the Pridelord will now call for help on low HP
+-- Screeching Windcaller will now flee at 15% HP
+-- Screeching Roguefeather will now flee at 15% HP
+-- Screeching Harpy will now flee at 15% HP
+-- Added AI for Arikara
+-- Add AI for Grimtotem Reaver
+-- Added AI for Grimtotem Stomper
+-- Grimtotem Bandit will now flee at 15% HP
+-- Add AI for Grimtotem Geomancer
+-- Harb Foulmountain will now flee at 15% HP
+-- Add AI for Galak Assassin
+-- Added AI for Galak Flame Guard
