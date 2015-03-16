@@ -259,3 +259,30 @@
 -- Harb Foulmountain will now flee at 15% HP
 -- Add AI for Galak Assassin
 -- Added AI for Galak Flame Guard
+-- Grimtotem Bandit will now use Kick
+-- Syndicate Shadow Mage will now cast Curse of Thorns
+-- Syndicate Watchman will now flee at 15% HP
+-- Fix movement for Watcher Jan
+-- Fix movement for Watcher Wollpert
+-- Fix movement for Watcher Mocarski
+-- Correct spawn position for Calor
+-- Syndicate Rogue Flee at 15% HP
+-- Jailor Eston will now flee at 15% HP
+-- Farmer Ray will now flee at 15% HP
+-- Correct movement type for Farmer Getz
+-- Hillsbrad Tailor will now flee at 15% HP rather than 30%
+-- Hillsbrad Footman will now flee at 15% HP rather than 30%
+-- Hillsbrad Farmer will now flee at 15% HP rather than 30%
+-- Hillsbrad Farmhand will now flee at 15% rather than 30%
+-- Hillsbrad Apprentice Blacksmith will now flee at 15% HP rather than 30%
+-- Correct movement type for Blacksmith Verringtan
+-- Mudsnout Gnoll will now flee at 15% HP
+-- Dun Garok Rifleman will now flee at 15% HP rather than 30%
+-- Dun Garok Priest will now flee at 15% HP rather than 30%
+-- Dun Garok Mountaineer will now flee at 15% HP rather than 30%
+-- Corrected movement type for Lady Zephris
+-- Hillsbrad Miner will now flee at 15% HP rather than 30% HP
+-- Miner Hackett now has the correct movement type
+-- Hillsbrad Sentry will now flee at 15% HP rather than 30% HP
+-- Captain Ironhill will now flee at 15% HP rather than 30%
+-- Daggerspine Shorestalker will now flee at 15% HP
