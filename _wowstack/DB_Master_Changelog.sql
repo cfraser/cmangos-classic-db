@@ -1,4 +1,4 @@
--- Revision: 0016
+-- Revision: 0022
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -286,3 +286,23 @@
 -- Hillsbrad Sentry will now flee at 15% HP rather than 30% HP
 -- Captain Ironhill will now flee at 15% HP rather than 30%
 -- Daggerspine Shorestalker will now flee at 15% HP
+-- Daggerspine Screamer flee at 15% HP
+-- Correct movement type for Araga
+-- Correct movement type for Lo'Grosh
+-- Correct movement type for Zaricotl spawn point
+-- Correct rank for Nal'taszar
+-- Corrected movement type for Ravenholdt Guard
+-- Jorb and Lizzarik are now linked together
+-- Dabyrie Laborer will now flee at 15% HP
+-- Marcel Dabyrie will now flee at 15% HP
+-- Fardel Dabyrie will now go for a stroll
+-- Fardel Dabyrie will now flee at 15% HP
+-- Kenata Dabyrie flee at 15% HP
+-- Corrected movement type for Kovork
+-- Fix movement type for Geomancer Flintdagger
+-- Correct spawn position for Calor
+-- Correct orientation for Master Gadrin
+-- Remove the deadly weapons from Tarrel Rockweaver
+-- Correct position for Dustwallow Marsh Solid Chest
+-- Correct spawn position for Venomhide Ravasaur
+-- Correct movement type for Jailor Borhuin
