@@ -1,4 +1,4 @@
--- Revision: 0022
+-- Revision: 0023
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -306,3 +306,36 @@
 -- Correct position for Dustwallow Marsh Solid Chest
 -- Correct spawn position for Venomhide Ravasaur
 -- Correct movement type for Jailor Borhuin
+-- Ironeye the Invincible is now a rare elite
+-- Vile Sting is now a rare elite
+-- Added AI for vile sting
+-- Added AI for Bloodscalp Scavenger
+-- Foulbelly is now a rare elite
+-- Caretaker Alaric will now flee at 15% HP
+-- Caretaker Weston will now flee at 15% HP
+-- Caretaker Nevlin will now flee at 15% HP
+-- Correct spawn position for multiple Hammerfall Guardian
+-- Correct language for Sildanair
+-- Kolkar Windchaser Flee at 15% HP
+-- Kolkar Destroyer Flee at 15% HP
+-- Kolkar Mauler Flee at 15% HP
+-- Add AI for Kolkar Centaur
+-- Kolkar Battle Lord will now call for help at 50% HP rather than 20%
+-- Khan Dez'hepah will now flee at 15% HP
+-- Kolkar Scout flee at 15% HP
+-- Magram Wrangler flee at 15% HP
+-- Magram Outrunner will now call for help at 50% HP
+-- Magram Windchaser flee at 15% HP
+-- Magram Scout Flee at 15% HP
+-- Magram Stormer flee at 15% HP
+-- Magram Marauder flee at 15% HP
+-- Magram Mauler flee at 15% HP
+-- Add AI for Magram Pack Runner
+-- Gelkis Windchaser will now flee at 15% HP
+-- Gelkis Stamper will now flee at 15% HP
+-- Gelkis Scout will now flee at 15% HP
+-- Added AI for Gelkis Outrunner
+-- Gelkis Marauder will now flee at 15% HP
+-- Gelkis Earthcaller will now flee at 15% HP
+-- Gelkis Mauler will now flee at 15% HP
+-- Add spawn pooling for Prince Kellen
