@@ -1,4 +1,4 @@
--- Revision: 0023
+-- Revision: 0024
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -339,3 +339,10 @@
 -- Gelkis Earthcaller will now flee at 15% HP
 -- Gelkis Mauler will now flee at 15% HP
 -- Add spawn pooling for Prince Kellen
+-- Burning Blade Shadowmage will no longer flee at low hp
+-- Burning Blade Augur will no longer flee on low hp
+-- Scorpid Terror will now cast Withering Poison
+-- Scorpid Reaver will now cast Withering Poison
+-- Slitherblade Oracle will now flee at 15% HP
+-- Khan Jehn will now flee at 15% HP
+-- Khan Shaka will now flee at 15% HP
