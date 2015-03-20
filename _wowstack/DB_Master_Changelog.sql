@@ -1,4 +1,4 @@
--- Revision: 0024
+-- Revision: 0025
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -346,3 +346,25 @@
 -- Slitherblade Oracle will now flee at 15% HP
 -- Khan Jehn will now flee at 15% HP
 -- Khan Shaka will now flee at 15% HP
+-- Saltscale Forager will now flee at 15% HP
+-- Saltscale Oracle will now flee at 15% HP
+-- Saltscale Tide Lord will now flee at 15% HP
+-- Saltscale Warrior will now flee at 15% HP
+-- Saltscale Hunter will now flee at 15% HP
+-- Added AI for Bloodscalp Witch Doctor
+-- Bloodscalp Axe Thrower will no longer flee at 15% HP
+-- Kurzen Commando will now cast Smoke Bomb correctly and flee at 15% HP
+-- Correct movement type for Cliff Breaker
+-- Antilos is now able to move around his spawn point
+-- Yarrog Baneshadow is now able to move around his spawn point
+-- Added AI for Venture Co. Foreman
+-- Added AI for Bloodscalp Scout
+-- Added AI for Bloodscalp Hunter
+-- Added AI for Skullsplitter Warrior
+-- Added AI for Skullsplitter Hunter
+-- Added AI for Skullsplitter Witch Doctor
+-- Added AI for Bloodscalp Headhunter
+-- Addad AI for Skullsplitter Spiritchaser
+-- Added AI for Venture Co. Tinkerer
+-- Added AI for Mosh'Ogg Mauler
+-- Added AI for Mosh'Ogg Shaman
