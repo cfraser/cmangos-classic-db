@@ -1,4 +1,4 @@
--- Revision: 0025
+-- Revision: 0026
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -368,3 +368,50 @@
 -- Added AI for Venture Co. Tinkerer
 -- Added AI for Mosh'Ogg Mauler
 -- Added AI for Mosh'Ogg Shaman
+-- "Pretty Boy" Duncan will now flee at 15% HP
+-- Naga Explorer will now flee at 15% HP
+-- Added AI for Zanzil Witch Doctor
+-- Added AI for Zanzil the Outcast
+-- Fix Ward of Zanzil
+-- Fix movement type for Burning Blade Fanatic
+--Fix movement type for Burning Blade Apprentice
+-- Fix movement type for Burning Blade Neophyte
+-- Fix movement type for Burning Blade Thug
+-- Slave workers are now aggressive to Horde and Alliance players
+-- Stone Guardian now has Nature Resistance
+-- Added AI for Mosh'Ogg Lord
+-- Skullsplitter Warrior will now flee at 15% HP
+-- Skullsplitter Witch Doctor flee at 15% HP
+-- Skullsplitter Scout will now flee at 15% HP
+-- Skullsplitter Spiritchaser will now flee at 15% HP
+-- Skullsplitter Hunter will now flee at 15% HP
+-- Added AI for Skullsplitter Beastmaster
+-- Correct movement type for Bhag'thera
+-- Added AI for Gan'zulah
+-- Nezzliok the Dire will now flee at 15% HP
+-- Correct movement type for King Bangalash
+-- King Bangalash will now emote when summoning his panthers
+-- Myra Tyrngaarde will now randomly emote
+-- Added AI for Bloodscalp Scavenger
+-- Added AI for MoshOgg Warmonger
+-- Added AI for Mosh'Ogg Spellcrafter
+-- Added AI for Tethis
+-- Skullsplitter Scout will now properly cast Headcrack
+-- Added AI for Colonel Kurzen
+-- Added AI for Mai'Zoth
+-- Added AI for Saltscale Oracle
+-- Added AI for Saltscale Tide Lord
+-- Added AI for Saltscale Forager
+-- Added AI for Saltscale Hunter
+-- Added AI for Kurzen Subchief
+-- Added AI for Kurzen Shadow Hunter
+-- Added AI for Mogh the Undying
+-- Added AI for Venture Co. Miner
+-- Added AI for Mosh'Ogg Witch Doctor
+-- Added AI for Young Threshadon
+-- Added AI for Loch Crocolisk
+-- Added AI for Decaying Horror
+-- Added AI for Plague Lurker
+-- Added AI for Highlord Taelan Fordring
+-- Added AI for Webwood Spider
+-- Added AI for Webwood Venomfang
