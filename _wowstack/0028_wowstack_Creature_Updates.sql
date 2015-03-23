@@ -129,20 +129,3 @@ INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5683;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('568301', '5683', '11', '0', '100', '0', '11', '3417', '0', 'Comar Villard - Cast Thrash on Spawn');
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('568302', '5683', '0', '0', '100', '1', '5000', '8000', '8000', '12000', '11', '12540', '1', 'Comar Villard - Cast Gouge');
-
--- Added AI for Gasher
-UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5713;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('571301', '5713', '0', '0', '100', '1', '3000', '5000', '7000', '12000', '11', '15580', '1', 'Gasher - Cast Strike');
-
--- Added AI for Twilight Fire Guard
-UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5861;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('586101', '5861', '0', '0', '100', '1', '3000', '6000', '7000', '10000', '11', '11988', '1', 'Twilight Fire Guard - Cast Fireball Volley');
-
--- Correct fire resistance for Minor Manifestation of Fire
-UPDATE `creature_template` SET `ResistanceFire`='150' WHERE `Entry`='5893';
-
--- Added AI for Minor Manifestation of Fire
-UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5893;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('589301', '5893', '0', '0', '100', '1', '3000', '5000', '5000', '8000', '11', '8050', '1', 'Minor Manifestation of Fire - Cast Flame Shock');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('589302', '5893', '4', '0', '100', '0', '11', '134', '0', 'Minor Manifestation of Fire - Cast Fire Shield on Aggro');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('589303', '5893', '16', '0', '100', '1', '134', '5', '60000', '60000', '11', '134', '0', 'Minor Manifestation of Fire - Cast Fire Shield on Missing Buff');
