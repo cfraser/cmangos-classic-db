@@ -1,4 +1,4 @@
--- Revision: 0026
+-- Revision: 0027
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -415,3 +415,5 @@
 -- Added AI for Highlord Taelan Fordring
 -- Added AI for Webwood Spider
 -- Added AI for Webwood Venomfang
+-- Corrected positions of a few creatures in Hearthglen
+-- Corrected positions of a few creatures in Hearthglen
