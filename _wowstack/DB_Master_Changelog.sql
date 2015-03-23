@@ -417,3 +417,31 @@
 -- Added AI for Webwood Venomfang
 -- Corrected positions of a few creatures in Hearthglen
 -- Corrected positions of a few creatures in Hearthglen
+-- Added AI for Giant Webwood Spider
+-- Added AI for Stone Behemoth
+-- Added AI for Rabid Thistle Bear
+-- Added AI for Forest Creeper
+-- Added AI for Jaguero Stalker
+-- Added AI for Elder Snapjaw Crocolisk
+-- Added AI for Archmage Malin
+-- Added AI for War Golem
+-- Added AI for Archmage Shymm
+-- Added AI for Witchwing Harpy
+-- Adeed AI for Witchwing Slayer
+-- Added AI for Witchwing Windcaller
+-- Added AI for Sarkoth
+-- Added AI for Magenius
+-- Added AI for Salt Flats Scavenger
+-- Added AI for Pesterhide Snarler
+-- Added AI for Mudrock Spikeshell
+-- Added AI for Darkfang Spider
+-- Added AI for Mana Eater
+-- Added AI for Foreman Cozzle
+-- Added AI for Murk Slitherer
+-- Added AI for Diamond Head
+-- Added AI for Zekkis
+-- Added AI for Comar Villard
+-- Added AI for Gasher
+-- Added AI for Twilight Fire Guard
+-- Correct fire resistance for Minor Manifestation of Fire
+-- Added AI for Minor Manifestation of Fire
