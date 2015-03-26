@@ -1,4 +1,4 @@
--- Revision: 0027
+-- Revision: 0029
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -445,3 +445,66 @@
 -- Added AI for Twilight Fire Guard
 -- Correct fire resistance for Minor Manifestation of Fire
 -- Added AI for Minor Manifestation of Fire
+-- Added AI for Spitelash Screamer
+-- Added AI for Spitelash Serpent Guard
+-- Added AI for Spitelash Myrmidon
+-- Added AI for Tazan
+-- Added AI for Ravasaur Runner
+-- Added AI for Digmaster Shovelphlange
+-- Added AI for Cursed Ooze
+-- Added AI for Infernal Sentry
+-- Added AI for Gnarlpine Mystic
+-- Added AI for Frostsaber Huntress
+-- Added AI for Frostsaber Pride Watcher
+-- Added AI for Cobalt Wyrmkin
+-- Added AI for Cobalt Scalebane
+-- Added AI for Cobalt Mageweaver
+-- Added AI for Winterfall Ursa
+-- Added AI for Winterfall Shaman
+-- Added AI for Winterfall Den Watcher
+-- Added AI for Winterfall Totemic
+-- Added AI for Winterfall Pathfinder
+-- Added AI for Chillwind Chimaera
+-- Added AI for Ragged Owlbeast
+-- Added AI for Moontouched Owlbeast
+-- Added AI for Winterspring Screecher
+-- Added AI for Rogue Ice Thistle
+-- Added AI for Ice Thistle Yeti
+-- Added AI for Ice Thistle Matriarch
+-- Added AI for Ice Thistle Patriarch
+-- Added AI for Hederine Slayer
+-- Added AI for Suffering Highborne
+-- Added AI for Anguished Highborne
+-- Added AI for Spitelash Enchantress
+-- Added AI for Master Mechanic Castpipe 
+-- Added AI for Living Decay
+-- Added AI for Entropic Horror
+-- Added AI for Mezzir the Howler
+-- Added AI for Kashoch the Reaver
+-- Added AI for Rakshiri
+-- Added AI for Galak Messenger
+-- Added AI for Cobalt Whelp
+-- Added AI for Cobalt Broodling
+-- Added AI for Spell Eater
+-- Added AI for High Chief Winterfall
+-- Added AI for Scalding Elemental
+-- Added AI for Boiling Elemental
+-- Added AI for Grimtotem Stomper
+-- Added AI for Grimtotem Geomancer
+-- Added AI for Grimtotem Reaver
+-- Added AI for Ursius
+-- Added AI for Brumeran
+-- Added AI for Arnak Grimtotem
+-- Fix walk speed for Somnus
+-- Lost One Muckdweller will now cast Plague Cloud in combat rather than on death
+-- Lost One Chieftain will now call for help at 50% HP rather than 30%
+-- Ongeku will now flee at 15% HP
+-- Marsh Flesheater will no longer flee at 15% HP
+-- Swamp Talker will now move around its spawn point
+-- Theramore Infiltrator will no longer flee at 15% HP
+-- Correct creature ID for Razormane Warfrenzy - AI now works
+-- Mirefin Murloc will now cast Mirefin Fungus
+-- Delete unneeded text for Bloodfen Raptor
+-- Delete unneeded text for Bloodfen Screecher
+-- Hayoc will now move around his spawn point
+-- Muckshell Scrabbler will now flee at 15% HP
