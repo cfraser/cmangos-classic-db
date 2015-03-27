@@ -1,4 +1,4 @@
--- Revision: 0029
+-- Revision: 0030
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -508,3 +508,42 @@
 -- Delete unneeded text for Bloodfen Screecher
 -- Hayoc will now move around his spawn point
 -- Muckshell Scrabbler will now flee at 15% HP
+-- Muckshell Razorclaw will now flee at 15% HP
+-- Muckshell Pincer will now flee at 15% HP
+-- Muckshell Clacker will now flee at 15% HP
+-- Muckshell Snapclaw will now flee at 15% HP
+-- Deatheye will now walk at the correct speed
+-- Helboar will now cast Helboar on spawn
+-- Added AI for Manifestation of Water
+-- Added AI for Spectral Marauder
+-- Added AI for HiveAshi Defender
+-- Added AI for HiveZora Wasp
+-- Added AI for HiveZora Hive Sister
+-- Added AI for HiveRegal Ambusher
+-- Added AI for HiveRegal Spitfire
+-- Added AI for 'HiveRegal Hive Lord
+-- Wastewander Scofflaw will now flee at 15% HP
+-- UnGoro Gorilla will now call for help at 20% HP
+-- Uhk'loc will now move around his spawn point
+-- U'cha will now move around his spawn point
+-- Silithid Creeper Egg should no longer move around
+-- Gorishi Worker will now call for help at 40% HP
+-- Gorishi Wasp will now cast its Poison ability
+-- Gorishi Stinger will now cast Slowing Poison on aggro
+-- Clutchmother Zavas will now move around her spawn point
+-- Clutchmother Zavas Eggs AI have been fixed and emotes added
+-- Clutchmother Zavas will now call for help at 20% HP
+-- Added AI for Stonelash Scorpid
+-- Added AI for Stonelash Pincer
+-- Glutinous Ooze will now emote when it dies
+-- Added AI for Living Blaze
+-- Added AI for Stonelash Flayer
+-- Added AI for Rock Stalker
+-- Added AI for Sand Skitterer
+-- Added AI for Dredge Crusher
+-- Added AI for Dredge Striker
+-- Added AI for Cyclone Warrior
+-- Added AI for Twilight Keeper Exeter
+-- Added AI for Twilight Keeper Havunth
+-- Added AI for Twilight Geolord
+-- Added AI for Twilight Stonecaller
