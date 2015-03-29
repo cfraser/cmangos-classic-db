@@ -1,4 +1,4 @@
--- Revision: 0030
+-- Revision: 0031
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -547,3 +547,26 @@
 -- Added AI for Twilight Keeper Havunth
 -- Added AI for Twilight Geolord
 -- Added AI for Twilight Stonecaller
+-- Humar the Pridelord will now roam around his spawn point
+-- Kuz now has his correct patrol path
+-- Nak now has his correct patrol path
+-- Washte Pawne will now wander around its spawn point
+-- Sludge Beast will now wander around its spawn point
+-- Taskmaster Whipfang now has his correct patrol path
+-- Foreman Rigger now has his correct patrol path
+-- Vengeful Ancient now has his correct patrol path
+-- Azzere the Skyblade now has his correct patrol path
+-- Feegly the Exiled now has his correct patrol path
+-- Brontus now has the correct patrol path
+-- Added AI for Torek
+-- Added AI for Scalebeard
+-- Added AI for Thief Catcher Shadowdelve
+-- Added AI for Thief Catcher Farmountain
+-- Added AI for Thief Catcher Thunderbrew
+-- Added AI for Huntress Skymane
+-- Added AI for Huntress Ravenoak
+-- Added AI for Huntress Leafrunner
+-- Added AI for Harb Foulmountain
+-- Added AI for Gibblesnik
+-- Added AI for Hunter Sagewind
+-- Added AI for Hunter Ragetotem
