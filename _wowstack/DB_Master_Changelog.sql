@@ -1,4 +1,4 @@
--- Revision: 0031
+-- Revision: 0032
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -570,3 +570,29 @@
 -- Added AI for Gibblesnik
 -- Added AI for Hunter Sagewind
 -- Added AI for Hunter Ragetotem
+-- Woodpaw Alpha will no longer flee on low HP
+-- Grimtotem Shaman will now cast Fire Nova Totem
+-- Grimtotem Shaman will now flee at 15% HP
+-- Grimtotem Raider will now flee at 15% HP
+-- Zukkash Worker will now flee at 30% HP rather than 15%
+-- Added text emote for Zukk'ash Stinger
+-- Added AI for Zukk'ash Stinger
+-- Northspring Hapry will now flee at 15% HP
+-- Northspring Roguefeather will now flee at 15% HP
+-- Northspring Slayer will now flee at 15% HP
+-- Northspring Windcaller will now flee at 15% HP
+-- Correct gossip text for Mai'ah
+-- Qirot will now move around his spawn point
+-- Correct movement speed for Gnarl Leafbrother
+-- Added AI for Zora
+-- Added AI for Rex Ashil
+-- Added AI for Krellack
+-- Added AI for Huricanian
+-- Added AI for Kurmokk
+-- Added AI for Verifonix
+-- Added AI for Captain Shatterskull
+-- Added AI for Twilight Keeper Mayna
+-- Added AI for Twilight Flamereaver
+-- Corrected movement speed while in combat for Twilight Flamereaver
+-- Added AI for Vyral the Vile
+-- Added AI for Southsea Kidnapper
