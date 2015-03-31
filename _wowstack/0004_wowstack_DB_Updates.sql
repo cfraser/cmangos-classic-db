@@ -32,7 +32,7 @@ UPDATE creature_template SET mechanicImmuneMask = 116097015 WHERE entry = 7664;
 UPDATE creature_template SET minlevel = 61, maxlevel = 61 WHERE entry = 14697;
 
 -- Remove flee from Deepmoss Venomspitter (Beasts should never flee)
-DELETE FROM creature_ai_scripts WHERE entry =400707;
+DELETE FROM creature_ai_scripts WHERE id = 400707;
 
 -- Adjust hitpoints of Mana Sprite
 UPDATE creature_template SET minlevelhealth = 10, maxlevelhealth = 10 WHERE entry = 12382;
