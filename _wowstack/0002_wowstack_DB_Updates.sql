@@ -43,7 +43,7 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 450;
 
 -- Correct Captain Armando Ossex Rank (Elite)
-UPDATE creature_template SET 'rank' = 1 WHERE entry = 16392;
+UPDATE creature_template SET rank = 1 WHERE entry = 16392;
 
 -- Fix Kobold fire resistance
 UPDATE creature_template SET resistancefire = 0 WHERE entry = 40;

@@ -231,7 +231,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Grimtotem Stomper
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 10759;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1075901', '10759', '13', '0', '100', '1', '5000', '8000', '11', '8046', '1', 'Grimtotem Stomper - Cast Earth Shock on Spellcast');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1075904', '10759', '13', '0', '100', '1', '5000', '8000', '11', '8046', '1', 'Grimtotem Stomper - Cast Earth Shock on Spellcast');
 
 -- Added AI for Grimtotem Geomancer
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 10760;

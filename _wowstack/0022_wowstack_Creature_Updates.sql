@@ -54,10 +54,10 @@ UPDATE creature SET orientation = 4.831948 WHERE guid = 6462;
 UPDATE `creature_template` SET `EquipmentTemplateId`='0' WHERE `Entry`='2096';
 
 -- Correct position for Dustwallow Marsh Solid Chest
-UPDATE gameobject SET position_x =-2973.36, position_y =-4356.99, position_z =9.2636, orientation =-2.74017, WHERE guid = 11755;
+UPDATE gameobject SET position_x =-2973.36, position_y =-4356.99, position_z =9.2636, orientation =-2.74017 WHERE guid = 11755;
 
 -- Correct spawn position for Venomhide Ravasaur
-UPDATE creature SET position_x =-7202.48, position_y =-2151.74, position_z =-270.6901, orientation =2.696767, WHERE guid = 23867;
+UPDATE creature SET position_x =-7202.48, position_y =-2151.74, position_z =-270.6901, orientation =2.696767 WHERE guid = 23867;
 
 -- Correct movement type for Jailor Borhuin
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='17020';

@@ -57,7 +57,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Witchwing Windcaller
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3280;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('328001', '3280', '0', '0', '100', '1', '3000', '6000', '7000', '12000', '11', '6728', '4', 'Witchwing Windcaller - Cast Enveloping Winds on Random');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('328002', '3280', '0', '0', '100', '1', '3000', '6000', '7000', '12000', '11', '6728', '4', 'Witchwing Windcaller - Cast Enveloping Winds on Random');
 
 -- Added AI for Sarkoth
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('328101', '3281', '0', '0', '100', '1', '2000', '4000', '8500', '15000', '11', '13518', '1', 'Sarkoth - Cast Poison');
