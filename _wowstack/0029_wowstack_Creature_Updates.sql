@@ -228,11 +228,6 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 10759;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1075904', '10759', '13', '0', '100', '1', '5000', '8000', '11', '8046', '1', 'Grimtotem Stomper - Cast Earth Shock on Spellcast');
 
--- Added AI for Grimtotem Reaver
-UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 10761;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1076101', '10761', '0', '0', '100', '1', '0', '5', '8000', '16000', '11', '15280', '1', 'Grimtotem Reaver - Cast Cleave Armor');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1076102', '10761', '0', '0', '100', '1', '3000', '5000', '5000', '10000', '11', '17281', '1', 'Grimtotem Reaver - Cast Crusader Strike');
-
 -- Added AI for Ursius
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 10806;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1080601', '10806', '0', '0', '100', '1', '0', '5', '5000', '8000', '11', '15793', '0', 'Ursius - Cast Maul');
