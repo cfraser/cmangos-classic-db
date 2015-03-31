@@ -16,6 +16,7 @@
 
 # Configuration files to be customized
 /InstallFullDB.config
+/settings.sh
 
 # Cache and log files
 
