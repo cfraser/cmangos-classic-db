@@ -12,6 +12,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 INSERT INTO `creature_template_spells` (`entry`, `spell1`, `spell2`) VALUES ('3833', '15798', '21968');
 
 -- Mist Howler should now call for help
+DELETE FROM creature_ai_scripts WHERE id = 1064404;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `action1_type`, `action1_param1`, `action2_type`, `action2_param1`, `comment`) VALUES ('1064404', '10644', '2', '0', '100', '0', '50', '39', '30', '1', '-551', 'Mist Howler - Call for Help at 50% HP');
 
 -- Mugglefin can now move again

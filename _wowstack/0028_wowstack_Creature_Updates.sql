@@ -48,7 +48,7 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 
 -- Added AI for Witchwing Harpy
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3276;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('327601', '3276', '0', '0', '100', '1', '3000', '6000', '10000', '15000', '11', '7098', '1', 'Witchwing Harpy - Cast Curse of Mending');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('327602', '3276', '0', '0', '100', '1', '3000', '6000', '10000', '15000', '11', '7098', '1', 'Witchwing Harpy - Cast Curse of Mending');
 
 -- Adeed AI for Witchwing Slayer
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3278;

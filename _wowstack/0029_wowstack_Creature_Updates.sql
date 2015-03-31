@@ -12,11 +12,11 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Tazan
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6494;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('649401', '6494', '0', '0', '100', '1', '3000', '6000', '5000', '10000', '11', '6253', '1', 'Tazan - Cast Backhand');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('649401', '6494', '0', '0', '100', '1', '3000', '6000', '5000', '10000', '11', '6253', '1', 'Tazan - Cast Backhand');
 
 -- Added AI for Ravasaur Runner
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6506;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('650601', '6506', '11', '0', '100', '0', '11', '3391', '0', 'Ravasaur Runner - Cast Thrash on Spawn');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('650601', '6506', '11', '0', '100', '0', '11', '3391', '0', 'Ravasaur Runner - Cast Thrash on Spawn');
 
 -- Added AI for Digmaster Shovelphlange
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7057;
@@ -97,7 +97,7 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 
 -- Added AI for Winterfall Den Watcher
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7440;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('744001', '7440', '4', '0', '100', '0', '11', '17205', '0', 'Winterfall Den Watcher - Cast Winterfall Firewater on Aggro');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('744001', '7440', '4', '0', '100', '0', '11', '17205', '0', 'Winterfall Den Watcher - Cast Winterfall Firewater on Aggro');
 
 -- Added AI for Winterfall Totemic
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7441;
@@ -112,7 +112,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Chillwind Chimaera
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7448;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('744801', '7448', '0', '0', '100', '1', '4000', '7000', '6000', '15000', '11', '16552', '1', 'Chillwind Chimaera - Cast Venom Spit');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('744801', '7448', '0', '0', '100', '1', '4000', '7000', '6000', '15000', '11', '16552', '1', 'Chillwind Chimaera - Cast Venom Spit');
 
 -- Added AI for Ragged Owlbeast
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7450;
@@ -153,7 +153,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Suffering Highborne
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7523;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('752301', '7523', '0', '0', '100', '1', '5000', '9000', '15000', '30000', '11', '18671', '1', 'Suffering Highborne - Cast Curse of Agony');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('752301', '7523', '0', '0', '100', '1', '5000', '9000', '15000', '30000', '11', '18671', '1', 'Suffering Highborne - Cast Curse of Agony');
 
 -- Added AI for Anguished Highborne
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 7524;

@@ -15,7 +15,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 2764;
 
 -- Correct Znort health
-UPDATE creautre_template SET minlevelhealth = 1662, maxlevelhealth = 1662 WHERE entry = 2765;
+UPDATE creature_template SET minlevelhealth = 1662, maxlevelhealth = 1662 WHERE entry = 2765;
 
 -- Correct Hederine Initiate walk speed
 UPDATE creature_template SET speedwalk = 1 WHERE entry = 7461;

@@ -66,7 +66,7 @@ INSERT INTO `npc_text` (`ID`, `text0_0`, `text0_1`, `lang0`, `prob0`, `em0_0`, `
 INSERT INTO `npc_gossip` (`npc_guid`, `textid`) VALUES ('80326', '921062');
 
 -- Correct Position for Marez Cowl
-UPDATE creature SET position_x =-1644.56, position_y =-1933.05, position_z =68.1722, orientation =0.174533, WHERE guid = 14652;
+UPDATE creature SET position_x =-1644.56, position_y =-1933.05, position_z =68.1722, orientation =0.174533 WHERE guid = 14652;
 
 
 
