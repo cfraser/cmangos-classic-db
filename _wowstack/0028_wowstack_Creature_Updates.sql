@@ -106,7 +106,7 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 
 -- Added AI for Murk Slitherer
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5224;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('522401', '5224', '0', '0', '100', '1', '3000', '5000', '7000', '15000', '11', '13518', '1', 'Murk Slitherer - Cast Poison');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('522401', '5224', '0', '0', '100', '1', '3000', '5000', '7000', '15000', '11', '13518', '1', 'Murk Slitherer - Cast Poison');
 
 -- Added AI for Diamond Head
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5345;
@@ -114,8 +114,8 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Zekkis
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5400;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `comment`) VALUES ('540001', '5400', '0', '0', '100', '1', '2000', '4000', '12000', '25000', '11', '1', 'Zekkis - Cast Shadow Word: Pain');
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `comment`) VALUES ('540002', '5400', '0', '0', '100', '1', '3000', '6000', '25000', '60000', '11', '1', 'Zekkis - Cast Contagion of Rot');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `comment`) VALUES ('540001', '5400', '0', '0', '100', '1', '2000', '4000', '12000', '25000', '11', '1', 'Zekkis - Cast Shadow Word: Pain');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `comment`) VALUES ('540002', '5400', '0', '0', '100', '1', '3000', '6000', '25000', '60000', '11', '1', 'Zekkis - Cast Contagion of Rot');
 
 -- Added AI for Comar Villard
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5683;
