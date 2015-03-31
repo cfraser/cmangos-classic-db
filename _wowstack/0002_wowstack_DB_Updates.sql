@@ -2,6 +2,8 @@
 UPDATE creature_template SET minlevelhealth = 1408, maxlevelhealth = 1408 WHERE entry = 2764;
 
 -- Add AI script for Sleeby
+DELETE FROM creature_ai_scripts WHERE id = 276403;
+DELETE FROM creature_ai_scripts WHERE id = 276404;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('276403', '2764', '0', '0', '100', '1', '3000', '6000', '10000', '20000', '11', '700', '1', 'Sleeby - Cast Sleep');
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('276404', '2764', '2', '0', '100', '0', '25', '25', '25', '25', '11', '10577', '0', 'Sleeby - Cast Heal at 25% HP');
 

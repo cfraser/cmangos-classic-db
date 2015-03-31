@@ -239,8 +239,8 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 
 -- Added AI for Saltscale Forager
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 877;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('87701', '877', '0', '0', '100', '1', '3000', '6000', '30000', '40000', '11', '744', '1', 'Saltscale Forager - Cast Poison');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('87702', '877', '0', '0', '100', '1', '3000', '6000', '15000', '20000', '11', '13443', '1', 'Saltscale Forager - Cast Rend');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('87702', '877', '0', '0', '100', '1', '3000', '6000', '30000', '40000', '11', '744', '1', 'Saltscale Forager - Cast Poison');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('87703', '877', '0', '0', '100', '1', '3000', '6000', '15000', '20000', '11', '13443', '1', 'Saltscale Forager - Cast Rend');
 
 -- Added AI for Saltscale Hunter
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 879;

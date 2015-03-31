@@ -33,11 +33,11 @@ UPDATE item_template SET delay = 2900 WHERE entry = 22631;
 INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `groupid`, `mincountOrRef`, `maxcount`, `condition_id`) VALUES ('171', '1394', '5', '0', '1', '1', '0');
 
 -- Correct drop chance for Recipe: Elixir of the Sages
-UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry 9449;
-UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry 9450;
-UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry 9451;
-UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry 9452;
-UPDATE creature_loot_template SET ChanceOrQuestChance = 3.19 WHERE entry 13479;
+UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry = 9449;
+UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry = 9450;
+UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry = 9451;
+UPDATE creature_loot_template SET ChanceOrQuestChance = 1.11 WHERE entry = 9452;
+UPDATE creature_loot_template SET ChanceOrQuestChance = 3.19 WHERE entry = 13479;
 
 -- Correct drop chance for Recipe: Elixir of the Mongoose
 UPDATE creature_loot_template SET ChanceOrQuestChance = 1.86 WHERE item = 13491;

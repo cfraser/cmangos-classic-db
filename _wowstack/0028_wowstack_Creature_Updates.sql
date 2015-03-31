@@ -52,8 +52,8 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Adeed AI for Witchwing Slayer
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3278;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('327801', '3278', '0', '0', '100', '1', '2000', '4000', '12000', '20000', '11', '13730', '0', 'Witchwing Slayer - Cast Demoralizing Shout');
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('327802', '3278', '12', '0', '100', '1', '20', '0', '10000', '10000', '11', '7160', '1', 'Witchwing Slayer - Cast Execute at 20% HP');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('327802', '3278', '0', '0', '100', '1', '2000', '4000', '12000', '20000', '11', '13730', '0', 'Witchwing Slayer - Cast Demoralizing Shout');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('327803', '3278', '12', '0', '100', '1', '20', '0', '10000', '10000', '11', '7160', '1', 'Witchwing Slayer - Cast Execute at 20% HP');
 
 -- Added AI for Witchwing Windcaller
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3280;

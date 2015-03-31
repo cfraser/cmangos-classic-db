@@ -12,7 +12,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Tazan
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6494;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('649401', '6494', '0', '0', '100', '1', '3000', '6000', '5000', '10000', '11', '6253', '1', 'Tazan - Cast Backhand');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('649402', '6494', '0', '0', '100', '1', '3000', '6000', '5000', '10000', '11', '6253', '1', 'Tazan - Cast Backhand');
 
 -- Added AI for Ravasaur Runner
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6506;

@@ -13,7 +13,7 @@ UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 702;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action1_param1`, `action1_param2`, `action2_type`, `action2_param1`, `comment`) VALUES ('70201', '702', '2', '0', '100', '0', '15', '15', '11', '8599', '0', '1', '-46', 'Bloodscalp Scavenger - Cast Enrage at 15% HP');
 
 -- Foulbelly is now a rare elite
-UPDATE creature _template SET rank = 2 WHERE entry = 2601;
+UPDATE creature_template SET rank = 2 WHERE entry = 2601;
 
 -- Caretaker Alaric will now flee at 15% HP
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 2782;
