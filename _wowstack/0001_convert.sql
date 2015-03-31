@@ -1,13 +1,16 @@
-ALTER TABLE `db_version` CHANGE COLUMN `required_z2533_sxxxx_xxxxx_01_mangos_spell_chain` `required_z0002_01_world_game_event` BIT(1) NOT NULL DEFAULT '' ;
+ALTER TABLE `db_version` CHANGE COLUMN `required_z2621_s2263_12823_04_mangos_creature` `required_z0005_04_world_creature` BIT(1) NOT NULL DEFAULT '' ;
 
 ALTER TABLE `game_event` CHANGE COLUMN `end_time` `end_time` TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Absolute end date, the event will never start after', CHANGE COLUMN `occurence` `occurrence` BIGINT(20) UNSIGNED NOT NULL DEFAULT '86400' COMMENT 'Delay in minutes between occurrences of the event';
 
-ALTER TABLE `mangos_string` RENAME TO `wowstack_vanilla_world_classicdb`.`server_messages` ;
+DROP TABLE IF EXISTS `server_messages` ;
+ALTER TABLE `mangos_string` RENAME TO `server_messages` ;
 
 ALTER TABLE `quest_template` CHANGE COLUMN `QuestLevel` `QuestLevel` TINYINT(3) UNSIGNED NOT NULL DEFAULT '0' ;
 
+DROP TABLE IF EXISTS `scripted_event` ;
 ALTER TABLE `scripted_event_id` RENAME TO `scripted_event` ;
 
+DROP TABLE IF EXISTS `locales_creature` ;
 CREATE TABLE `locales_creature` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `name_loc1` varchar(100) NOT NULL DEFAULT '',
@@ -29,6 +32,7 @@ CREATE TABLE `locales_creature` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_gameobject` ;
 CREATE TABLE `locales_gameobject` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `name_loc1` varchar(100) NOT NULL DEFAULT '',
@@ -42,6 +46,7 @@ CREATE TABLE `locales_gameobject` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_gossip_menu_option` ;
 CREATE TABLE `locales_gossip_menu_option` (
   `menu_id` smallint(6) unsigned NOT NULL DEFAULT '0',
   `id` smallint(6) unsigned NOT NULL DEFAULT '0',
@@ -64,6 +69,7 @@ CREATE TABLE `locales_gossip_menu_option` (
   PRIMARY KEY (`menu_id`,`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_item` ;
 CREATE TABLE `locales_item` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `name_loc1` varchar(100) NOT NULL DEFAULT '',
@@ -85,6 +91,7 @@ CREATE TABLE `locales_item` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_npc_text` ;
 CREATE TABLE `locales_npc_text` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `Text0_0_loc1` longtext,
@@ -218,6 +225,7 @@ CREATE TABLE `locales_npc_text` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_page_text` ;
 CREATE TABLE `locales_page_text` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `Text_loc1` longtext,
@@ -231,6 +239,7 @@ CREATE TABLE `locales_page_text` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_points_of_interest` ;
 CREATE TABLE `locales_points_of_interest` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `icon_name_loc1` text,
@@ -244,6 +253,7 @@ CREATE TABLE `locales_points_of_interest` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `locales_quest` ;
 CREATE TABLE `locales_quest` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `Title_loc1` text,
