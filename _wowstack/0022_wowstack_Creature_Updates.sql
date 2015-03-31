@@ -1,5 +1,5 @@
 -- Daggerspine Screamer flee at 15% HP
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('237002', '2370', '2', '0', '100', '0', '15', '15', '25', '1', '-47', 'Daggerspine Screamer - Flee at 15% HP');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('237002', '2370', '2', '0', '100', '0', '15', '15', '25', '1', '-47', 'Daggerspine Screamer - Flee at 15% HP');
 
 -- Correct movement type for Araga
 UPDATE `creature_template` SET `MovementType`='1' WHERE `Entry`='14222';

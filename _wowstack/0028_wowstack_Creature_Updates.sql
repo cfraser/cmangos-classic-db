@@ -14,10 +14,6 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 2350;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('235001', '2350', '0', '0', '100', '1', '2000', '4000', '10000', '12000', '11', '3396', '1', 'Forest CreeperForest Creeper - Cast Corrosive Poison');
 
--- Added AI for Jaguero Stalker
-UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 2522;
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('252201', '2522', '11', '0', '100', '0', '11', '3417', '0', 'Jaguero Stalker - Cast Thrash on Spawn');
-
 -- Added AI for Elder Snapjaw Crocolisk
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 2635;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('263501', '2635', '0', '0', '100', '1', '3000', '6000', '7000', '10000', '11', '3604', '1', 'Elder Snapjaw Crocolisk - Cast Tendon Rip');

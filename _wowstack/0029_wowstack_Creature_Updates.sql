@@ -8,7 +8,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 
 -- Added AI for Spitelash Myrmidon
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6196;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('619601', '6196', '0', '0', '100', '1', '2000', '4000', '4000', '8000', '11', '11976', '1', 'Spitelash Myrmidon - Cast Strike');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('619601', '6196', '0', '0', '100', '1', '2000', '4000', '4000', '8000', '11', '11976', '1', 'Spitelash Myrmidon - Cast Strike');
 
 -- Added AI for Tazan
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 6494;

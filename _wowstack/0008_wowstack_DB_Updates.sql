@@ -42,7 +42,7 @@ UPDATE creature SET spawntimesecs = 10 WHERE id = 13016;
 
 -- Tinkerer Sniggles flee at 15% HP
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('347101', '3471', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Tinkerer Sniggles - Flee at 15% HP');
-UPDATE creature_template SET AIName = 'EventAI' WHERE entryr = 3471;
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3471;
 
 -- Venture Co. Mercenary Flee at 15% HP
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('328207', '3282', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Venture Co. Mercenary - Flee at 15% HP');

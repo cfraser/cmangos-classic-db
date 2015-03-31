@@ -75,7 +75,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 -- Added AI for Verifonix
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 14492;
 DELETE FROM creature_ai_scripts WHERE creature_id = 14492;
-INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1449201', '14492', '0', '0', '100', '1', '4000', '5000', '8000', '16000', '11', '12097', '1', 'Verifonix - Cast Pierce Armor');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1449201', '14492', '0', '0', '100', '1', '4000', '5000', '8000', '16000', '11', '12097', '1', 'Verifonix - Cast Pierce Armor');
 
 -- Added AI for Captain Shatterskull
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 14781;

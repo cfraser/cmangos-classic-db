@@ -2,7 +2,7 @@
 UPDATE creature_template SET rank = 2 WHERE entry = 5935;
 
 -- Vile Sting is now a rare elite
-UPDATE creature _template SET rank = 2 WHERE entry = 5937;
+UPDATE creature_template SET rank = 2 WHERE entry = 5937;
 
 -- Added AI for vile sting
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 5937;
