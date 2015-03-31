@@ -59,7 +59,7 @@ INSERT INTO `creature_template_spells` (`entry`, `spell1`, `spell2`) VALUES ('48
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 4830;
 
 -- Add AI script for Serra'kis
-INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (483001,4830,0,11,100,0,0,0,0,0,11,8434,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Old Serrakis - Cast Leech Pulse on Spawn');
+INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (483001,4830,0,11,100,0,0,0,0,0,11,8434,0,0,0,0,0,0,0,0,0,0,'Old Serrakis - Cast Leech Pulse on Spawn');
 
 -- Correct AI script for Redridge Mongrel
 INSERT INTO `classic_db`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('42303', '423', '0', '0', '100', '1', '3000', '6000', '30000', '45000', '11', '3427', '1', 'Redridge Mongrel - Cast Infected Wound');
