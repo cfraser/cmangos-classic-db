@@ -7,7 +7,7 @@ UPDATE creature_ai_scripts SET event_param1 = 3000, event_param2 = 6000 WHERE id
 
 -- Correct AI for Blood Elf Surveyor and prevent it from fleeing
 UPDATE `creature_ai_scripts` SET `event_param1`='3000', `event_param2`='10000' WHERE `id`='619801';
-DELETE FROM `mangos`.`creature_ai_scripts` WHERE `id`='619802';
+DELETE FROM `creature_ai_scripts` WHERE `id`='619802';
 
 -- Add AI for Captain Gerogg Hammertoe
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('585101', '5851', '11', '0', '100', '0', '11', '71', '0', 'Captain Gerogg Hammertoe - Cast Defensive Stance on Spawn');
@@ -44,10 +44,10 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE creature_template SET AIName = 'EventAI' WHERE entryr = 3471;
 
 -- Venture Co. Mercenary Flee at 15% HP
-INSERT INTO `mangos`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('328207', '3282', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Venture Co. Mercenary - Flee at 15% HP');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('328207', '3282', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Venture Co. Mercenary - Flee at 15% HP');
 
 -- Venture Co. Peon Flee at 15% HP
-INSERT INTO `mangos`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('328501', '3285', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Venture Co. Peon - Flee at 15% HP');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('328501', '3285', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Venture Co. Peon - Flee at 15% HP');
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3285;
 
 -- Add AI text for Kul Tiras Sailor

@@ -14,7 +14,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('346701', '3467', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Baron Longshore - Flee at 15% HP');
 
 -- Set Baron Longshore creature AI
-UPDATE creature_template SET AIscript = 'EventAI' WHERE entry = 3467;
+UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3467;
 
 -- Southsea Brigand Flee at 15% HP
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('338102', '3381', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Southsea Brigand - Flee at 15% HP');

@@ -16,7 +16,7 @@ UPDATE `creature_addon` SET `emote`='233' WHERE `guid`='52499';
 UPDATE `creature_addon` SET `emote`='233' WHERE `guid`='48474';
 
 -- Corrected positions of a few creatures in Hearthglen
-UPDATE creature SET position_x =2981.78, position_y =-1448.02, position_z =145.9922, orientation =5.828171, WHERE guid = 52004;
-UPDATE creature SET position_x =2987.95, position_y =-1454.74, position_z =146.5368, orientation =0.974408, WHERE guid = 48206;
+UPDATE creature SET position_x =2981.78, position_y =-1448.02, position_z =145.9922, orientation =5.828171 WHERE guid = 52004;
+UPDATE creature SET position_x =2987.95, position_y =-1454.74, position_z =146.5368, orientation =0.974408 WHERE guid = 48206;
 
 --

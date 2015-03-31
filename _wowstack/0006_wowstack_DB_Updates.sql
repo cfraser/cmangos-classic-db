@@ -1,4 +1,4 @@
---Sunscale Screecher - Call for help at 15% HP
+-- Sunscale Screecher - Call for help at 15% HP
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `comment`) VALUES ('325501', '3255', '2', '0', '100', '0', '15', '15', '15', '15', '39', '30', 'Sunscale Screecher - Call for help at 15% HP');
 
 -- Southsea Cutthroat - Flee at 15% HP
@@ -33,8 +33,8 @@ UPDATE creature_template SET speedwalk = 1 WHERE entry = 14861;
 UPDATE creature_template SET minlevelhealth = 1, maxlevelhealth = 1 WHERE entry = 4075
 
 -- Correct Unstable Corpse AI
-DELETE FROM `creature_ai_scripts` WHERE `id`='1048001';
-UPDATE `creature_ai_scripts` SET `id`='1048001' WHERE `id`='1048002';
+DELETE FROM `creature_ai_scripts` WHERE `id`=1048001;
+UPDATE `creature_ai_scripts` SET `id`='1048001' WHERE `id`=1048002;
 
 -- Correct walk speed for Princess Theradras
 UPDATE creature_template SET speedwalk = 1 WHERE entry = 12201;
@@ -69,7 +69,6 @@ UPDATE creature_template SET minlevelhealth = 3844, maxlevelhealth = 3844 WHERE 
 -- Correct Coldmine Invader level
 UPDATE creature_template SET minlevel = 56, maxlevel = 56 WHERE entry = 13087;
 
---
 -- Add AI script for Twilight Lord Everun
 INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (1447901,14479,1,0,100,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,'Twilight Lord Everun - Prevent Combat Movement on Spawn');
 INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_inverse_phase_mask`,`event_chance`,`event_flags`,`event_param1`,`event_param2`,`event_param3`,`event_param4`,`action1_type`,`action1_param1`,`action1_param2`,`action1_param3`,`action2_type`,`action2_param1`,`action2_param2`,`action2_param3`,`action3_type`,`action3_param1`,`action3_param2`,`action3_param3`,`comment`) VALUES (1447902,14479,4,0,100,0,0,0,0,0,11,17439,1,0,22,1,0,0,0,0,0,0,'Nightbane Shadow Weaver - Cast Shadow Shock and Set Phase 1 on Aggro');
@@ -85,7 +84,7 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 14479;
 
 -- Remove loot template for Ghost of the Past
-DELETE * FROM creature_loot_template WHERE entry = 10940;
+DELETE FROM creature_loot_template WHERE entry = 10940;
 
 -- Update Immunities for Ironbark Protector
 UPDATE creature_template SET MechanicImmuneMask = 116097015 WHERE entry = 11459

@@ -19,17 +19,17 @@ UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 10758;
 INSERT INTO `creature_template_spells` (`entry`, `spell1`) VALUES ('10758', '13534');
 
 -- Added Silithid Invader for quest
-INSERT INTO `mangos`.`creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`) VALUES ('590060', '4131', '1', '11143', '0', '-6494.73', '-3233.77', '-113.2699', '1.39626', '300', '0', '0', '1279', '0', '0', '2');
-INSERT INTO `mangos`.`creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`) VALUES ('590061', '4131', '1', '11143', '0', '-6444.66', '-3290.80', '-104.3690', '1.39626', '300', '0', '0', '1279', '0', '0', '2');
+INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`) VALUES ('590060', '4131', '1', '11143', '0', '-6494.73', '-3233.77', '-113.2699', '1.39626', '300', '0', '0', '1279', '0', '0', '2');
+INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`) VALUES ('590061', '4131', '1', '11143', '0', '-6444.66', '-3290.80', '-104.3690', '1.39626', '300', '0', '0', '1279', '0', '0', '2');
 
 -- Make Chromatic Elite Guard not immune to fear
 UPDATE creature_template SET MechanicImmuneMask = 100728833 WHERE entry = 10814
 
 -- Correct health for King Magni Bronzebeard
-UPDATE creature_template SET minlevelhealth = 637000, maxlevelhealth = 637000 WHERE entry = 2784;
+UPDATE creature_template SET `MinLevelHealth` = 637000, `MaxLevelHealth` = 637000 WHERE `Entry` = 2784;
 
 -- Correct health for Cairne Bloodhoof
-UPDATE creature_template SET minlevelhealth = 637000, maxlevelhealth = 637000 WHERE entry = 3057;
+UPDATE creature_template SET `MinLevelHealth` = 637000, `MaxLevelHealth` = 637000 WHERE `Entry` = 3057;
 
 -- Correct health for High Tinker Mekkatorque
-UPDATE creature_template SET minlevelhealth = 330000, maxlevelhealth = 330000 WHERE entry = 7937;
+UPDATE creature_template SET `MinLevelHealth` = 330000, `MaxLevelHealth` = 330000 WHERE `Entry` = 7937;

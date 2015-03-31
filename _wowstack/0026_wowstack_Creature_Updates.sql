@@ -36,59 +36,59 @@ INSERT INTO `creature_ai_scripts` (`id`,`creature_id`,`event_type`,`event_invers
 INSERT INTO `creature_template_spells` (`entry`, `spell1`) VALUES ('6386', '8833');
 
 -- Fix movement type for Burning Blade Fanatic
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6417';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6418';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6419';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6421';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6422';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6426';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6427';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6428';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6429';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6432';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7333';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7334';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7335';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7337';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7338';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7340';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7341';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7342';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7898';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7899';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7900';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7901';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='8428';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6417';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6418';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6419';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6421';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6422';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6426';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6427';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6428';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6429';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6432';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7333';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7334';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7335';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7337';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7338';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7340';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7341';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7342';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7898';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7899';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7900';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7901';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='8428';
 
 -- Fix movement type for Burning Blade Apprentice
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6420';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6423';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6424';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6425';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6430';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6431';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7336';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7880';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7882';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7884';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7885';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7897';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='8429';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7883';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7339';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6420';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6423';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6424';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6425';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6430';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6431';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7336';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7880';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7882';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7884';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7885';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7897';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='8429';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7883';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='7339';
 
 -- Fix movement type for Burning Blade Neophyte
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6435';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12188';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12195';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12202';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12951';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12956';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='6435';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12188';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12195';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12202';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12951';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12956';
 
 -- Fix movement type for Burning Blade Thug
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12183';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12185';
-UPDATE `mangos`.`creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12186';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12183';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12185';
+UPDATE `creature` SET `spawndist`='5', `MovementType`='1' WHERE `guid`='12186';
 
 -- Slave workers are now aggressive to Horde and Alliance players
 UPDATE `creature_template` SET `FactionAlliance`='54', `FactionHorde`='54' WHERE `Entry`='5843';

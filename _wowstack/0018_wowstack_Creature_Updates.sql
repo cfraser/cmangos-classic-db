@@ -21,7 +21,7 @@ UPDATE `creature` SET `spawndist`='5' WHERE `guid`='51884';
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_param1`, `action1_param2`, `action1_param3`, `comment`) VALUES ('398704', '3987', '11', '0', '100', '0', '11', '6813', '0', 'Dal Bloodclaw - Cast Coat of Thistlefur');
 
 -- Correct spawn position for Trigore the Lasher]
-UPDATE creature SET position_x =-636.02, position_y =-2253.10, position_z =11.9102, orientation =4.876435, WHERE guid = 160359;
+UPDATE creature SET position_x =-636.02, position_y =-2253.10, position_z =11.9102, orientation =4.876435 WHERE guid = 160359;
 
 -- Correct prerequisite for Flash Bomb Recepie
 UPDATE `quest_template` SET `PrevQuestId`='705' WHERE `entry`='1559';
@@ -62,7 +62,7 @@ UPDATE `creature` SET `spawndist`='5' WHERE `guid`='63913';
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='44863';
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='44864';
 
--- 19 NPC's outside The Scarlet Monostary and The Scarlet Watchpost no longer have broken legs and are able to move 
+-- 19 NPC's outside The Scarlet Monostary and The Scarlet Watchpost no longer have broken legs and are able to move
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='30041';
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='38372';
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='38373';
@@ -89,13 +89,13 @@ UPDATE `creature_ai_scripts` SET `id`='123601' WHERE `id`='123602';
 UPDATE `creature_ai_scripts` SET `id`='123602' WHERE `id`='123603';
 
 -- Remove the Silvermane Stalker from the trees
-UPDATE creature SET position_x =-98.93, position_y =-3542.40, position_z =120.2193, orientation =2.166917, WHERE guid = 93058;
+UPDATE creature SET position_x =-98.93, position_y =-3542.40, position_z =120.2193, orientation =2.166917 WHERE guid = 93058;
 
 -- Move a Silvermane Stalker from its friend
-UPDATE creature SET position_x =29.75, position_y =-3604.71, position_z =123.7280, orientation =1.557320, WHERE guid = 93004;
+UPDATE creature SET position_x =29.75, position_y =-3604.71, position_z =123.7280, orientation =1.557320 WHERE guid = 93004;
 
 -- Move another Silvermane Stalker from the trees
-UPDATE creature SET position_x =199.96, position_y =-4027.10, position_z =118.0265, orientation =2.498048, WHERE guid = 92988;
+UPDATE creature SET position_x =199.96, position_y =-4027.10, position_z =118.0265, orientation =2.498048 WHERE guid = 92988;
 
 -- Prevent the key from Klaven's Tower dropping from creatures
 DELETE FROM `creature_loot_template` WHERE `entry`='7051' and`item`='7923';

@@ -10,7 +10,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3376;
 
 -- Gogger Rock Keeper Shound't Run
-DELETE FROM `mangos`.`creature_ai_scripts` WHERE `id`='1191503';
+DELETE FROM `creature_ai_scripts` WHERE `id`='1191503';
 
 -- Gogger Stonepounder Shouldn't Run
-DELETE FROM `mangos`.`creature_ai_scripts` WHERE `id`='1191802';
+DELETE FROM `creature_ai_scripts` WHERE `id`='1191802';

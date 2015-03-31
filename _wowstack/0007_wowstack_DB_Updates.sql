@@ -85,10 +85,10 @@ UPDATE creature_template SET DynamicFlags = 32 WHERE entry = 6912;
 UPDATE creature_template SET speedwalk = 1 WHERE entry = 4850;
 
 -- Correct position for William MacGregor
-UPDATE creature SET position_x =-10657.39, position_y =996.55, position_z =32.8740, orientation =57.717613, WHERE guid = 48881;
+UPDATE creature SET position_x =-10657.39, position_y =996.55, position_z =32.8740, orientation =57.717613 WHERE guid = 48881;
 
 -- Update position for Deathguard Bartrand
-UPDATE creature SET position_x =1882.92, position_y =1585.16, position_z =89.9179, orientation =0.160741, WHERE guid = 28498;
+UPDATE creature SET position_x =1882.92, position_y =1585.16, position_z =89.9179, orientation =0.160741 WHERE guid = 28498;
 
 UPDATE creature_template SET MovementType = 0 WHERE entry = 1741;
 
@@ -105,5 +105,5 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('345702', '3457', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Razormane Stalker - Flee at 15% HP');
 
 -- Update position for Warleader Krazzilak
-UPDATE creature SET position_x =-6934.54, position_y =-3142.43, position_z =42.3722, orientation =3.358282, WHERE guid = 51828;
+UPDATE creature SET position_x =-6934.54, position_y =-3142.43, position_z =42.3722, orientation =3.358282 WHERE guid = 51828;
 

@@ -15,11 +15,11 @@ UPDATE creature_template SET MovementType = 1 WHERE entry = 826;
 -- Fix movement for Watcher Wollpert
 UPDATE creature_template SET MovementType = 1 WHERE entry = 8310;
 
--- Fix movement for Watcher Mocarski 
+-- Fix movement for Watcher Mocarski
 UPDATE creature_template SET MovementType = 1 WHERE entry = 827;
 
 -- Correct spawn position for Calor
-UPDATE creature SET position_x =-10580.44, position_y =-1202.36, position_z =27.5614, orientation =0.134971, WHERE guid = 4176;
+UPDATE creature SET position_x =-10580.44, position_y =-1202.36, position_z =27.5614, orientation =0.134971 WHERE guid = 4176;
 
 -- Syndicate Rogue Flee at 15% HP
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('226002', '2260', '2', '0', '100', '0', '15', '15', '25', '1', '-47', 'Syndicate Rogue - Flee at 15% HP');
