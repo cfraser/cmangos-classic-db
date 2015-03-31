@@ -1,5 +1,5 @@
 -- Ironeye the Invincible is now a rare elite
-UPDATE creature _template SET rank = 2 WHERE entry = 5935;
+UPDATE creature_template SET rank = 2 WHERE entry = 5935;
 
 -- Vile Sting is now a rare elite
 UPDATE creature _template SET rank = 2 WHERE entry = 5937;

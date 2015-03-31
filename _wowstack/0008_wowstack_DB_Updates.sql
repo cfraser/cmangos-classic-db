@@ -24,6 +24,7 @@ UPDATE creature_template SET MechanicImmuneMask = 603991583 WHERE entry = 5859;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('585905', '5859', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Hagg Taurenbane - Flee at 15% HP');
 
 -- Greater Plainstrider Flee at 15% HP
+DELETE FROM creature_ai_scripts WHERE creature_id = 3244;
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('324401', '3244', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Greater Plainstrider - Flee at 15% HP');
 
 -- Add AI for Jaguero Stalker

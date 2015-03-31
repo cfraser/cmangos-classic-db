@@ -30,7 +30,7 @@ UPDATE creature_template SET minlevelhealth = 97664, maxlevelhealth = 97664 WHER
 UPDATE creature_template SET speedwalk = 1 WHERE entry = 14861;
 
 -- Fix Rat health
-UPDATE creature_template SET minlevelhealth = 1, maxlevelhealth = 1 WHERE entry = 4075
+UPDATE creature_template SET minlevelhealth = 1, maxlevelhealth = 1 WHERE entry = 4075;
 
 -- Correct Unstable Corpse AI
 DELETE FROM `creature_ai_scripts` WHERE `id`=1048001;

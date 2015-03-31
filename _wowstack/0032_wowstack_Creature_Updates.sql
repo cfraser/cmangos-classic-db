@@ -13,7 +13,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE `creature_ai_scripts` SET `event_param1`='30', `comment`='Zukkash Worker - Flee at 30% HP' WHERE `id`='524601';
 
 -- Added text emote for Zukk'ash Stinger
-INSERT INTO `creature_ai_texts` (`entry`, `content_default`, `sound`, `type`, `language`, `emote`, `comment`) VALUES ('-1326', '%s prepares to sting its victim as a last desperate move!', '0', '2', '0', '0', '5244');
+INSERT INTO `creature_ai_texts` (`entry`, `content_default`, `sound`, `type`, `language`, `emote`, `comment`) VALUES ('-1328', '%s prepares to sting its victim as a last desperate move!', '0', '2', '0', '0', '5244');
 
 -- Added AI for Zukk'ash Stinger
 -- TODO: Please check this at a later date

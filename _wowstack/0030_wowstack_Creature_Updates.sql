@@ -99,7 +99,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action1_param1`, `action1_param2`, `comment`) VALUES ('1173602', '11736', '0', '0', '100', '1', '4000', '8000', '10000', '20000', '11', '5416', '1', 'Stonelash Pincer - Cast Venom Sting ');
 
 -- Glutinous Ooze will now emote when it dies
-INSERT INTO `creature_ai_texts` (`entry`, `content_default`, `sound`, `type`, `language`, `emote`, `comment`) VALUES ('-1324', '%s explodes into chunks of acidic slime!', '0', '2', '0', '0', '6559');
+INSERT INTO `creature_ai_texts` (`entry`, `content_default`, `sound`, `type`, `language`, `emote`, `comment`) VALUES ('-1327', '%s explodes into chunks of acidic slime!', '0', '2', '0', '0', '6559');
 UPDATE `creature_ai_scripts` SET `action2_type`='1', `action2_param1`='-1324' WHERE `id`='655901';
 
 -- Added AI for Living Blaze

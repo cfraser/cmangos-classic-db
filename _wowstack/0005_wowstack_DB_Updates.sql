@@ -23,7 +23,7 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `positio
 INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`) VALUES ('590061', '4131', '1', '11143', '0', '-6444.66', '-3290.80', '-104.3690', '1.39626', '300', '0', '0', '1279', '0', '0', '2');
 
 -- Make Chromatic Elite Guard not immune to fear
-UPDATE creature_template SET MechanicImmuneMask = 100728833 WHERE entry = 10814
+UPDATE creature_template SET MechanicImmuneMask = 100728833 WHERE entry = 10814;
 
 -- Correct health for King Magni Bronzebeard
 UPDATE creature_template SET `MinLevelHealth` = 637000, `MaxLevelHealth` = 637000 WHERE `Entry` = 2784;

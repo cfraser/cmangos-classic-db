@@ -41,7 +41,7 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3245;
 
 -- Razormane Thornweaver - Flee at 15% HP
-INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('326801', '3268', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Razormane Thornweaver - Flee at 15% HP');
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('326803', '3268', '2', '0', '100', '0', '15', '15', '15', '15', '25', '1', '-47', 'Razormane Thornweaver - Flee at 15% HP');
 UPDATE creature_template SET AIName = 'EventAI' WHERE entry = 3268;
 
 -- Razormane Water Seeker - Flee at 15% HP
