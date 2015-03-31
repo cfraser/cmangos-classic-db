@@ -45,7 +45,7 @@ UPDATE `creature_template` SET `MovementType`='1' WHERE `Entry`='2603';
 UPDATE `creature` SET `spawndist`='5' WHERE `guid`='13375';
 
 -- Correct spawn position for Calor
-UPDATE creature SET position_x =-1153.19, position_y =-3120.62, position_z =92.7509, orientation =2.73313, WHERE guid = 20720;
+UPDATE creature SET position_x =-1153.19, position_y =-3120.62, position_z =92.7509, orientation =2.73313 WHERE guid = 20720;
 
 -- Correct orientation for Master Gadrin
 UPDATE creature SET orientation = 4.831948 WHERE guid = 6462;

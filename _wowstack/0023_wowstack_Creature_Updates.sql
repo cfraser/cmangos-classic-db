@@ -27,9 +27,9 @@ INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inv
 INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `action1_type`, `action2_type`, `action2_param1`, `comment`) VALUES ('278001', '2780', '2', '0', '100', '0', '15', '15', '25', '1', '-47', 'Caretaker Nevlin - Flee at 15% HP');
 
 -- Correct spawn position for multiple Hammerfall Guardian
-UPDATE creature SET position_x =-1050.31, position_y =-3542.66, position_z =55.7487, orientation =3.263770, WHERE guid = 11346;
-UPDATE creature SET position_x =-1049.30, position_y =-3556.33, position_z =54.8008, orientation =32.82713, WHERE guid = 11347;
-UPDATE creature SET position_x =-1029.82, position_y =-3551.86, position_z =56.2696, orientation =3.091310, WHERE guid = 11293;
+UPDATE creature SET position_x =-1050.31, position_y =-3542.66, position_z =55.7487, orientation =3.263770 WHERE guid = 11346;
+UPDATE creature SET position_x =-1049.30, position_y =-3556.33, position_z =54.8008, orientation =32.82713 WHERE guid = 11347;
+UPDATE creature SET position_x =-1029.82, position_y =-3551.86, position_z =56.2696, orientation =3.091310 WHERE guid = 11293;
 
 -- Correct language for Sildanair
 UPDATE `npc_text` SET `lang0`='7' WHERE `ID`='1218';
