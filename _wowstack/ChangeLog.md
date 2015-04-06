@@ -1,4 +1,4 @@
--- Revision: 0032
+-- Revision: 0033
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -62,7 +62,7 @@
 -- Correct health for King Magni Bronzebeard
 -- Correct health for Cairne Bloodhoof
 -- Correct health for High Tinker Mekkatorque
---Sunscale Screecher - Call for help at 15% HP
+-- Sunscale Screecher - Call for help at 15% HP
 -- Southsea Cutthroat - Flee at 15% HP
 -- Zalazane - Flee at 15% HP
 -- Voodoo Troll - Flee at 15% HP
@@ -596,3 +596,53 @@
 -- Corrected movement speed while in combat for Twilight Flamereaver
 -- Added AI for Vyral the Vile
 -- Added AI for Southsea Kidnapper
+	-- Revision 0033
+-- Ironback will now move around his spawn point
+-- Grimungous now has the correct movement speed
+-- Silvermane Stalker will now stealth on spawn
+-- Silvermane Howler will now call for help at 50% HP
+-- Jalinde Summerdrake will now move around her spawn point
+-- Added AI for Shadra
+-- Vilebranch Berserker will no longer flee on low HP
+-- A Carefully Wrapped Present now has a Quest Level of 60
+-- Stolen Winter Veil Treats now has a Quest Level of 35
+-- Correct Required Races for Bijou's Belongings
+-- Added AI for Spitelash Serpent Guard
+-- Added AI for Spitelash Warrior
+-- Storm Bay Warrior will no longer flee on low HP
+-- Arkkoran Clacker will now call for help at 50% HP
+-- Updated walk speed for Tamed Kodo
+-- Hillsbrad Miner correct comment
+-- Storm bay Warrior will no longer flee on low HP
+-- Arkkoran Clacker will now call for help at 50% HP
+-- Master Feardred will now roam around his spawn point
+-- Fires should now have the correct aura diameter, no longer burning you from long distances
+-- More fixes for Chillwind Ravager
+-- More fixes for Fledgling Chillwind
+-- More fixes for Gazz'uz
+-- Numerous small fixes to creature movement and placement
+-- Some internal DB fixes
+-- Deathguard Bartrand will no longer move around his spawn point
+-- Teronos' will now appear dead
+-- Fixed emote for Hillsbrad Apprentice Blacksmith
+-- Witherbark Broodguard will now cast Poison : 2686
+-- Vilebranch Hideskinner will now cast Poison : 2644
+-- Burning Blade Seer will no longer flee on low HP : 13019
+-- Slitherblade Naga will now flee at 15% HP : 4711
+-- Slitherblade Warrior will now flee at 15% HP : 4713
+-- Slitherblade Myrmidon will now flee at 15% HP : 4714
+-- Slitherblade Sorceress will now flee at 15% HP : 4712
+-- Slitherblade Sea Witch will now flee at 15% HP : 4719
+-- Slitherblade Razortail will now flee at 15% HP : 4715
+-- Dark Iron Lookout will no longer flee on low HP : 8566
+-- Dark Iron Geologist will no longer flee on low HP : 5839
+-- Glassweb Spider will now cast Poison
+-- Adjusted timer for Glassweb Spider Web
+-- Shleipnarr will now cast Terrify : 8280
+-- Slave Master Blackheart will no longer flee on low HP
+-- Slave Master Blackheart will now call for help at 40% HP : 8283
+-- Added AI for Rekk'tilac : 8277
+-- Jarquia will no longer flee on low HP
+-- Highlord Mastrogonde will no longer flee on low HP
+-- Twilight Geomancer will no longer flee on low HP
+-- Twilight Fire Guard will now use its Fire Shield ability : 5861
