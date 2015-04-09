@@ -681,3 +681,39 @@
 -- Lieutenant Fangore is now resistant to Shadow spells
 -- Balgaras the Foul is now resistant to Shadow spells
 -- Added DB text for the Quest "In Dreams"
+-- The following Items now have the correct Subclass
+-- Silverleaf
+-- Mageroyal
+-- Peacebloom
+-- Earthroot
+-- Briarthorn
+-- Swiftthistle
+-- Bruiseweed
+-- Maiden's Anguish
+-- Wild Steelbloom
+-- Kingsblood
+-- Liferoot
+-- Khadgar's Whisker
+-- Grave Moss
+-- Fadeleaf
+-- Wintersbite
+-- Stranglekelp
+-- Goldthorn
+-- Firebloom
+-- Wildvine
+-- Purple Lotus
+-- Arthas' Tears
+-- Sungrass
+-- Blindweed
+-- Ghost Mushroom
+-- Gromsblood
+-- Dreamfoil
+-- Golden Sansam
+-- Mountain Silversage
+-- Plaguebloom
+-- Icecap
+-- Black Lotus
+-- Red Dragon Orb
+-- Green Dragon Orb
+-- Lunar Festival Invitation
+-- 34 Internal DB Fixes
