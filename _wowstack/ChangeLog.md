@@ -1,4 +1,4 @@
--- Revision: 0033
+-- Revision: 0034
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -646,3 +646,38 @@
 -- Highlord Mastrogonde will no longer flee on low HP
 -- Twilight Geomancer will no longer flee on low HP
 -- Twilight Fire Guard will now use its Fire Shield ability : 5861
+-- Rumors for Kravel now requires level 32
+-- Scorpid Sting rank 1 will now be required to obtain Scorpid Sting rank 2
+-- Blackout will now proc on successful spellhit and damage over time spells that do shadow damage
+-- Scargil will now walk around his spawn point
+-- Mongress will now walk around his spawn point
+-- Jaedenar Adept will no longer flee on low HP
+-- Jaedenar Cultist will no longer flee on low HP
+-- Immolatus will now cast Fire Shield
+-- Olm the Wise will now move around his spawn point
+-- Mezzir the Howler will now move around his spawn point
+-- Adeed AI for Raging Owlbeast
+-- Added AI for Grizzle Snowpaw
+-- Ragepaw will now walk around his spawn point
+-- Overlord Ror now has his adds
+-- Overlord Ror will no longer flee on low HP
+-- Overlord Ror will now call for help at 50% HP
+-- Jadefire Shadowstalker will now cast Stealth on spawn
+-- Jadefire Shadowstalker will now cast Slowing Poison
+-- Jadefire Felsworn will no longer flee on low HP
+-- Schemtatic: Ice Deflector will no longer be infinitely sold by Vendor-Tron 680!
+-- Pattern: Dark Silk Shirt will no longer be infinitely sold by Vendor Tron 680!
+-- Pattern: Crimson Silk Cloak will no longer be infinitely sold by Vendor Tron 680!
+-- Pattern: Enchanter's Cowl will no longer be infinitely sold by Vendor Tron 680!
+-- Death Howl will now roam around his spawn point
+-- Added AI for Death Howl
+-- Deadwood Den Watcher will no longer flee on low HP
+-- Deadwood Den Watcher will now call for help at 50% HP
+-- Deadwood Avenger will now Enrage seeing a Friendly fall in battle
+-- Chieftain Bloodmaw will no longer flee on low HP
+-- Chieftain Bloodmaw will now call for help at 50% HP
+-- Added AI text for Mad Servant
+-- Commander Springvale will now cast Devotion Aura
+-- Lieutenant Fangore is now resistant to Shadow spells
+-- Balgaras the Foul is now resistant to Shadow spells
+-- Added DB text for the Quest "In Dreams"
