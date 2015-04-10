@@ -1,4 +1,4 @@
--- Revision: 0034
+-- Revision: 0036
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -717,3 +717,4 @@
 -- Green Dragon Orb
 -- Lunar Festival Invitation
 -- 34 Internal DB Fixes
+-- Fixed 18 DB errors
