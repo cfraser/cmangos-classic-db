@@ -1,0 +1,20 @@
+-- Fixed 18 DB errors
+UPDATE `spell_proc_event` SET `CustomChance`='0' WHERE `entry`='15268';
+UPDATE creature SET SpawnDist = 5 WHERE id = 1525;
+UPDATE creature SET MovementType = 1 WHERE guid = 45089;
+UPDATE creature SET MovementType = 1 WHERE guid = 45162;
+UPDATE creature SET MovementType = 1 WHERE guid = 45196;
+UPDATE creature SET MovementType = 1 WHERE guid = 44879;
+UPDATE creature SET MovementType = 1 WHERE guid = 45198;
+UPDATE creature SET MovementType = 1 WHERE guid = 45200;
+UPDATE creature SET curhealth = 8097 WHERE id = 14476;
+UPDATE creature SET curhealth = 100480 WHERE id = 14721;
+UPDATE creature SET curhealth = 129835 WHERE id = 466;
+UPDATE creature SET curhealth = 97664 WHERE id = 14394;
+UPDATE creature SET curmana = 1695 WHERE id = 7154;
+DELETE FROM `creature_linking_template` WHERE `entry`='17647' and`map`='0';
+DELETE FROM `creature_linking_template` WHERE `entry`='17996' and`map`='0';
+UPDATE `quest_template` SET `RewRepFaction1`='530', `RewRepFaction3`='76', `RewRepFaction4`='81', `RewRepFaction5`='68' WHERE `entry`='172';
+UPDATE `quest_template` SET `RewRepFaction1`='609' WHERE `entry`='8447';
+UPDATE `quest_template` SET `RewRepFaction1`='72' WHERE `entry`='8830';
+UPDATE `quest_template` SET `RewRepFaction1`='72' WHERE `entry`='8831';
