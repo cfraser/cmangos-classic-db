@@ -1,4 +1,4 @@
-ALTER TABLE `db_version` CHANGE COLUMN `required_z2621_s2263_12823_04_mangos_creature` `required_z0006_01_world_warden_checks` BIT(1) NOT NULL DEFAULT '' ;
+ALTER TABLE `db_version` CHANGE COLUMN `required_z2621_s2263_12823_04_mangos_creature` `required_z0007_01_world_command` BIT(1) NOT NULL DEFAULT '' ;
 
 DELETE FROM `command` WHERE name LIKE 'ahbot%';
 
@@ -19,6 +19,24 @@ SET
     `help` = 'Syntax: .summon [$charactername]Teleport the given character to you. Character can be offline.'
 WHERE
     `name` = 'namego';
+
+DELETE FROM
+    `command`
+WHERE
+    `name` IN (
+        'account create',
+        'account delete',
+        'account onlinelist',
+        'character deleted delete',
+        'character deleted list',
+        'character deleted restore',
+        'character deleted old',
+        'character erase',
+        'server exit',
+        'server log filter',
+        'server log level'
+    )
+;
 
 ALTER TABLE `game_event` CHANGE COLUMN `end_time` `end_time` TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Absolute end date, the event will never start after', CHANGE COLUMN `occurence` `occurrence` BIGINT(20) UNSIGNED NOT NULL DEFAULT '86400' COMMENT 'Delay in minutes between occurrences of the event';
 
