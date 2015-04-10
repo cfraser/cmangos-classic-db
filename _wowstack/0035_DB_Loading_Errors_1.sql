@@ -104,3 +104,10 @@ UPDATE `creature` SET `MovementType` = 1 WHERE `guid` = 44771;
 UPDATE `creature` SET `SpawnDist` = 0 WHERE `guid` = 44878;
 UPDATE `creature` SET `SpawnDist` = 0 WHERE `guid` = 44880;
 UPDATE `creature` SET `SpawnDist` = 0 WHERE `guid` = 44885;
+
+-- non-existent creature spawns
+DELETE FROM `creature_addon` WHERE `guid` IN(91405,91406,91407,91421,91422,91427);
+
+-- Deprecated quests removed in patch 1.10
+DELETE FROM `creature_involvedrelation` WHERE `quest` IN (7202, 7382);
+DELETE FROM `creature_questrelation` WHERE `quest` IN (7202, 7382);
