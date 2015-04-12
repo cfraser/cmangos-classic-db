@@ -34,7 +34,8 @@ WHERE
         'character erase',
         'server exit',
         'server log filter',
-        'server log level'
+        'server log level',
+        'quit'
     )
 ;
 
