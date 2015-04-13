@@ -1,4 +1,4 @@
--- Revision: 0036
+-- Revision: 0037
 
 -- Cannoneer Whessan Flee at 15%
 -- Cannoneer Smythe Flee at 15%
@@ -718,3 +718,23 @@
 -- Lunar Festival Invitation
 -- 34 Internal DB Fixes
 -- Fixed 18 DB errors
+-- Correct Faction for Dark Guard
+-- Correct Faction for Dark Keeper Bethek
+-- Correct Faction for Dark Keeper Zimrel
+-- Correct Faction for Dark Keeper Vorfalk
+-- Correct Faction for Dark Keeper Uggel
+-- Correct Faction for Dark Keeper Pelver
+-- Correct Faction for Dark Keeper Ofgut
+-- Henry Stern will now teach Mighty Troll's Blood Potion
+-- Add Gossip for Quest: The Corrupter
+-- Maur Grimtotem will now appear dead
+-- Taskmaster Whipfang now has his waypoints
+-- Foreman Rigger now has his waypoints
+-- Fix AI Text for Glutinous Ooze
+-- Fix AI Text for Zukk'ash Stinger
+-- More Fixes for Zukk'ash Stinger AI
+-- Fix AI Text for Doctor Theolen Krastinov
+-- Fix AI for Bellygrub
+-- Fix AI for Razormane Mystic
+-- Fix AI for Baron Longshore
+-- Fix AI for South Sea Brigand
