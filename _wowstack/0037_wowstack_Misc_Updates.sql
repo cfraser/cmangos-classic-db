@@ -36,7 +36,7 @@ INSERT INTO `db_script_string` (`entry`, `content_default`, `sound`, `type`, `la
 UPDATE `creature_template` SET `DynamicFlags`='36' WHERE `Entry`='11834';
 
 -- Taskmaster Whipfang now has his waypoints
-DELETE FROM creature_movement WHERE id = 29215;
+DELETE FROM `creature_movement` WHERE `id` = 29215;
 INSERT INTO `creature_movement` VALUES
 (29215, 1, 1140.72, 96.9613, -6.54598, 10000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.58386, 0, 0),
 (29215, 2, 1126.27, 104.924, -1.39066, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.67811, 0, 0),
@@ -60,7 +60,7 @@ INSERT INTO `creature_movement` VALUES
 (29215, 20, 1159.28, 103.321, -6.8048, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4.22928, 0, 0);
 
 -- Foreman Rigger now has his waypoints
-DELETE FROM creature_movement WHERE id = 29214;
+DELETE FROM `creature_movement` WHERE `id` = 29214;
 INSERT INTO `creature_movement` VALUES
 (29214, 1, 1205.03, -3.69687, -4.78463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.55736, 0, 0),
 (29214, 2, 1207.51, 3.96758, -6.01966, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.19214, 0, 0),
