@@ -98,9 +98,9 @@ UPDATE `creature_ai_scripts` SET `action2_param1`='-1327' WHERE `id`='655901';
 UPDATE `creature_ai_scripts` SET `action2_param1`='-1328' WHERE `id`='524402';
 
 -- More Fixes for Zukk'ash Stinger AI
-UPDATE `wowstack_vanilla_world_classicdb`.`creature_ai_scripts` SET `comment`='Zukk''ash Stinger - Set Phase 1 on Spawn' WHERE `id`='524401';
-UPDATE `wowstack_vanilla_world_classicdb`.`creature_ai_scripts` SET `comment`='Zukk''ash Stinger - Stop combat movement and set Phase 2' WHERE `id`='524402';
-INSERT INTO `wowstack_vanilla_world_classicdb`.`creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `comment`) VALUES ('524404', '5244', '7', '0', '100', '1', '21', '1', 'Zukk''Ash Stinger - Start combat movement on Evade');
+UPDATE `creature_ai_scripts` SET `comment`='Zukk''ash Stinger - Set Phase 1 on Spawn' WHERE `id`='524401';
+UPDATE `creature_ai_scripts` SET `comment`='Zukk''ash Stinger - Stop combat movement and set Phase 2' WHERE `id`='524402';
+INSERT INTO `creature_ai_scripts` (`id`, `creature_id`, `event_type`, `event_inverse_phase_mask`, `event_chance`, `event_flags`, `action1_type`, `action1_param1`, `comment`) VALUES ('524404', '5244', '7', '0', '100', '1', '21', '1', 'Zukk''Ash Stinger - Start combat movement on Evade');
 
 -- Fix AI Text for Doctor Theolen Krastinov
 UPDATE `creature_ai_scripts` SET `action1_param1`='-1321' WHERE `id`='1126104';
