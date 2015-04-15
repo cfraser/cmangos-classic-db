@@ -59,6 +59,11 @@ function import_structure ()
     for x in ./_wowstack/*.sql; do
         import $x ${WORLD_DATABASE}
     done
+
+    # - Import WowStack updates ----------------------------------------------
+    for x in ./_wowstack_locales/*.sql; do
+        import $x ${WORLD_DATABASE}
+    done
 }
 
 # - Do not edit below! Here be dragon! ---------------------------------------
