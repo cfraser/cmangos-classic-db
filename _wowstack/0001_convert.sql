@@ -39,6 +39,7 @@ WHERE
     )
 ;
 
+DROP TABLE IF EXISTS `creature_item_template`;
 CREATE TABLE `creature_item_template` (
   `entry` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `class` tinyint(3) unsigned DEFAULT '0',
