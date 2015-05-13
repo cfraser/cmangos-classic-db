@@ -744,3 +744,16 @@
 -- Galvan the Ancient now has his work emote
 -- Skullsplitter Headhunter will now flee on low HP
 -- Added AI for Bloodsail Swabby
+-- Adjusted drop chance for Flawless Fel Essence
+-- Added reward text for "Flash Bomb Recipe"
+-- You can now pick up "Messenger to Westfall" only after completing "Messanger to Stormwind"
+-- Captain Stillwater will now cast Flame Strike and Flee at 15% HP
+-- Fleet Master Firallon Flee at 15% HP
+-- King Mukla will now roam around his spawn point
+-- Stonevault Shaman will now cast Lightning Bolt and Flee at 15% HP
+-- Shadowforge Commander will now roam around his spawn point
+-- Noboru the Cudgel will now flee at 15% HP
+-- Kurzen Medicine Man will now drop Fadeleaf
+-- Primitive Owlbeast will now move
+-- Correct placement for Morbent Fel
+-- Morbent Fell now has his adds
