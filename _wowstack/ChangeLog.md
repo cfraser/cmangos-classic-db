@@ -738,3 +738,9 @@
 -- Fix AI for Razormane Mystic
 -- Fix AI for Baron Longshore
 -- Fix AI for South Sea Brigand
+-- Kimberly Hiett will no longer sell explosive sheep
+-- Syndicate Assasin will now drop Cloaked Hood
+-- Master Smith Burninate will now repair items
+-- Galvan the Ancient now has his work emote
+-- Skullsplitter Headhunter will now flee on low HP
+-- Added AI for Bloodsail Swabby
