@@ -757,3 +757,10 @@
 -- Primitive Owlbeast will now move
 -- Correct placement for Morbent Fel
 -- Morbent Fell now has his adds
+
+
+--------------------------------------------------------------------------- The above fixes went into 0x changelog ------------------------------------------------------------------------------
+
+-- Creature Template:
+
+Spawn all creatures for Witch Hill in Dustwallow Marsh
