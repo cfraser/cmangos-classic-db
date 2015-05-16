@@ -764,3 +764,12 @@
 -- Creature Template:
 
 Spawn all creatures for Witch Hill in Dustwallow Marsh
+
+-- Artificial Intelligence:
+
+More fixes for Zukk'ash Stinger
+Tomb Reaver will now cast Virulent Poison
+
+-- General:
+
+Fixed over 5000 errors and warnings on DB start up
