@@ -1,0 +1,21 @@
+-- Fixed some issues where EVENT_T_HP will never trigger because params were the same
+UPDATE `creature_ai_scripts` SET `event_param1`='15' WHERE `id`='410102';
+UPDATE `creature_ai_scripts` SET `event_param1`='50', `event_param2`='0' WHERE `id`='463901';
+UPDATE `creature_ai_scripts` SET `event_param2`='0' WHERE `id`='715602';
+UPDATE `creature_ai_scripts` SET `event_param1`='15', `event_param2`='0' WHERE `id`='78101';
+UPDATE `creature_ai_scripts` SET `event_param1`='15', `event_param2`='0' WHERE `id`='450602';
+
+-- Fixed some issues where creatures with scripts did not have the correct AI flag
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='781';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='4506';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='10076';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='12204';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='12205';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='12238';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='14354';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='15541';
+UPDATE `creature_template` SET `AIName`='EventAI' WHERE `Entry`='15542';
+
+-- Corrected a few cases where non repeatable events had repeatable flags
+UPDATE `creature_ai_scripts` SET `event_flags`='0' WHERE `id`='1148002';
+UPDATE `creature_ai_scripts` SET `event_param3`='2400', `event_param4`='3800' WHERE `id`='672709';
