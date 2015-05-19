@@ -769,6 +769,9 @@ Spawn all creatures for Witch Hill in Dustwallow Marsh
 
 More fixes for Zukk'ash Stinger
 Tomb Reaver will now cast Virulent Poison
+Fixed some issues where EVENT_T_HP will never trigger because params were the same
+Fixed some issues where creatures with scripts did not have the correct AI flag
+Corrected a few cases where non repeatable events had repeatable flags
 
 -- General:
 
