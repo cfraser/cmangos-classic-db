@@ -784,6 +784,12 @@ Fixed some issues where creatures with scripts did not have the correct AI flag
 Corrected a few cases where non repeatable events had repeatable flags
 Fix Zukk'ash Stinger for reals!
 
+Quest Templates:
+
+Fix required races for "Your Place In The World"
+Added Quest start script for "Your place In The World"
+The Quest "Doctor Theolen Krastinov, the Butcher" should only be available after speaking to Eva Sarkhoff
+
 -- General:
 
 Fixed over 5000 errors and warnings on DB start up
