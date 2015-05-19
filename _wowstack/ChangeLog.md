@@ -764,6 +764,16 @@
 -- Creature Template:
 
 Spawn all creatures for Witch Hill in Dustwallow Marsh
+Correct position of Horde Warbringer in Thunderbluff
+Correct position of Kergul Bloodaxe in Thunderbluff
+Correct position of Taim Ragetotem in Thunderbluff
+Martin Lindsey now resides in The Pools of Vision
+Correct position for Lar Prowltusk
+Correct position for Master Gadrin
+Correct position for Kali Remik
+Kali Remik will now dance (for monies)
+Added some vanilla spawns to Razor Hill
+
 
 -- Artificial Intelligence:
 
@@ -772,6 +782,7 @@ Tomb Reaver will now cast Virulent Poison
 Fixed some issues where EVENT_T_HP will never trigger because params were the same
 Fixed some issues where creatures with scripts did not have the correct AI flag
 Corrected a few cases where non repeatable events had repeatable flags
+Fix Zukk'ash Stinger for reals!
 
 -- General:
 
