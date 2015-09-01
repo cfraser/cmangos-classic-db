@@ -1,4 +1,4 @@
-ALTER TABLE `db_version` CHANGE COLUMN `required_z2621_s2263_12823_04_mangos_creature` `required_z0008_02_world_creature_equipment_template_raw` BIT(1) NOT NULL DEFAULT '' ;
+ALTER TABLE `db_version` CHANGE COLUMN `required_z2674_sxxxx_xxxxx_01_mangos_creature_template` `required_z0008_02_world_creature_equipment_template_raw` BIT(1) NOT NULL DEFAULT '' ;
 
 DELETE FROM `command` WHERE name LIKE 'ahbot%';
 
