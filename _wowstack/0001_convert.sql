@@ -1,4 +1,4 @@
-ALTER TABLE `db_version` CHANGE COLUMN `required_z2674_sxxxx_xxxxx_01_mangos_creature_template` `required_z0008_02_world_creature_equipment_template_raw` BIT(1) NOT NULL DEFAULT '' ;
+ALTER TABLE `db_version` CHANGE COLUMN `required_z2683_01_mangos_scriptdev2_tables` `required_z0012_01_world_server_messages` BIT(1) NOT NULL DEFAULT '' ;
 
 DELETE FROM `command` WHERE name LIKE 'ahbot%';
 
@@ -4625,7 +4625,7 @@ VALUES
     ,(2217,2000,0,0)
 ;
 
-DROP TABLE IF EXISTS `creature_equipment_template_raw`;
+DROP TABLE IF EXISTS `creature_equip_template_raw`;
 
 ALTER TABLE `game_event` CHANGE COLUMN `end_time` `end_time` TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Absolute end date, the event will never start after', CHANGE COLUMN `occurence` `occurrence` BIGINT(20) UNSIGNED NOT NULL DEFAULT '86400' COMMENT 'Delay in minutes between occurrences of the event';
 
