@@ -1,5 +1,12 @@
 #!/bin/bash
 #
+# DEPRECATED!!!
+# Use this to set the password instead:
+#   mysql_config_editor set --login-path=wowstack --host=localhost --user=wowstack --password
+#
+# To show your configuration use:
+#   mysql_config_editor print --all
+#
 # This file contains login/password information for accessing the MySQL
 # database and is used by all the mysql_* scripts.
 #
@@ -13,6 +20,7 @@
 USER=wowstack
 PASS=GehupDoav2
 HOST=localhost
+LOGIN_PATH=wowstack
 
 # - Database settings: customize for your local setup ------------------------
 CHARACTER_DATABASE=wowstack_vanilla_characters
@@ -22,7 +30,4 @@ WORLD_DATABASE=wowstack_vanilla_world_classicdb
 
 # - Do not edit below! Here be dragon! ---------------------------------------
 OPTS=
-[ ! -z "${USER}" ] && OPTS="${OPTS} -u${USER}"
-[ ! -z "${PASS}" ] && OPTS="${OPTS} -p${PASS}"
-[ ! -z "${HOST}" ] && OPTS="${OPTS} -h${HOST}"
-[ ! -z "${SOCK}" ] && OPTS="${OPTS} -S${SOCK}"
+[ ! -z "${LOGIN_PATH}" ] && OPTS="${OPTS} --login-path=${LOGIN_PATH}"
