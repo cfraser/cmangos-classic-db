@@ -13,6 +13,7 @@ CONFIG_FILE="InstallFullDB.config"
 ADDITIONAL_PATH=""
 
 #variables assigned and read from $CONFIG_FILE
+DB_HOST="localhost"
 DATABASE=""
 USERNAME=""
 PASSWORD=""
@@ -27,16 +28,19 @@ cat >  $CONFIG_FILE << EOF
 # This is the config file for the '$SCRIPT_FILE' script
 #
 # You need to insert
+#   DB_HOST:      Host on which the database resides
 #   DATABASE:     Your database
 #   USERNAME:     Your username
 #   PASSWORD:     Your password
 #   CORE_PATH:    Your path to core's directory (OPTIONAL: Use if you want to apply remaining core updates automatically)
-#   SD2_PATH:     Your path to SD2's directory (OPTIONAL: Use if you want to apply remaining SD2 updates automatically)
+#   SD2_PATH:     Your path to SD2's directory (OPTIONAL: Use if you want to apply SD2 database automatically)
 #   ACID_PATH:    Your path to a git-clone of ACID (OPTIONAL: Use it if you want to install recent downloaded acid)
-#   SD2_UPDATES:  If you want to disable adding ScriptDev2 updates (Has only meaning if CORE_PATH above is set
 #   MYSQL:        Your mysql command (usually mysql)
 #
 ####################################################################################################
+
+## Define the host on which the mangos database resides (typically localhost)
+DB_HOST="localhost"
 
 ## Define the database in which you want to add clean classic DB
 DATABASE="mangos"
@@ -50,6 +54,10 @@ PASSWORD="mangos"
 ## Define the path to your core's folder (This is optional)
 ##   If set the core updates located under sql/updates from this mangos-directory will be added automatically
 CORE_PATH=""
+
+## Define the path to the folder into which the SD2 database is located (This is optional)
+##   If set the file scriptdev2.sql will be applied from this folder
+SD2_PATH=""
 
 ## Define the path to the folder into which you cloned ACID (This is optional)
 ##   If set the file acid_classic.sql will be applied from this folder
@@ -86,7 +94,7 @@ fi
 
 . $CONFIG_FILE
 
-MYSQL_COMMAND="$MYSQL -u$USERNAME -p$PASSWORD $DATABASE"
+MYSQL_COMMAND="$MYSQL -h$DB_HOST -u$USERNAME -p$PASSWORD $DATABASE"
 
 ## Print header
 echo
@@ -104,26 +112,30 @@ done
 echo .
 
 ## Full Database
-echo "Process classic database v1.6.0 'Shadowforge City'."
-$MYSQL_COMMAND < ${ADDITIONAL_PATH}Full_DB/ClassicDB_1_6_z2683.sql
+echo "Process classic database v1.6.5 'The Wailing Pet, The MidSummer Joy and all that sort of things'."
+$MYSQL_COMMAND < ${ADDITIONAL_PATH}Full_DB/ClassicDB_1_6_5_z2683.sql
 [[ $? != 0 ]] && exit 1
 
 ## Updates
 echo "Process database updates"
-if [ ! -e ${ADDITIONAL_PATH}updates/[0-9]*.sql ]
-then
-    echo "   No update to process"
-else
-    for UPDATE in ${ADDITIONAL_PATH}updates/[0-9]*.sql
-    do
-        echo "   process update $UPDATE"
-        $MYSQL_COMMAND < $UPDATE
-        [[ $? != 0 ]] && exit 1
-    done
-    echo "Updates applied"
-fi
+for UPDATEFILE in ${ADDITIONAL_PATH}updates/[0-9]*.sql
+do
+    if [ -e "$UPDATEFILE" ]
+    then
+        for UPDATE in ${ADDITIONAL_PATH}updates/[0-9]*.sql
+        do
+            echo "   process update $UPDATE"
+            $MYSQL_COMMAND < $UPDATE
+            [[ $? != 0 ]] && exit 1
+        done
+        echo "Updates applied"
+    else
+        echo "   No update to process"
+    fi
+    break
+done
 
-LAST_CORE_REV="2683"
+LAST_CORE_REV="2684"
 # process future release folders
 NEXT_MILESTONES="0.12.4 0.12.5"
 
@@ -178,6 +190,25 @@ then
 fi
 
 #
+#               SD2 Full DB file
+#
+
+if [ "$SD2_PATH" != "" ]
+then
+  if [ ! -e $SD2_PATH ]
+  then
+    echo "Path to SD2 database provided, but directory not found! $SD2_PATH"
+    exit 1
+  fi
+
+  # Apply scriptdev2.sql
+  echo "Applying $SD2_PATH/scriptdev2.sql ..."
+  $MYSQL_COMMAND < ${SD2_PATH}/scriptdev2.sql
+  [[ $? != 0 ]] && exit 1
+  echo "Recent state of ScriptDev2 applied"
+fi
+
+#
 #               ACID Full file
 #
 
@@ -202,18 +233,23 @@ fi
 if [ "$DEV_UPDATES" == "YES" ]
 then
   echo "Process development updates"
-  if [ ! -e ${ADDITIONAL_PATH}dev/*.sql ]
-  then
-      echo "   No development update to process"
-  else
-      for UPDATE in ${ADDITIONAL_PATH}dev/*.sql
-      do
-          echo "   process update $UPDATE"
-          $MYSQL_COMMAND < $UPDATE
-          [[ $? != 0 ]] && exit 1
-      done
-      echo "Development updates applied"
-  fi
+  for UPDATEFILE in ${ADDITIONAL_PATH}dev/*.sql
+  do
+    if [ -e "$UPDATEFILE" ]
+    then
+        for UPDATE in ${ADDITIONAL_PATH}dev/*.sql
+        do
+            echo "   process update $UPDATE"
+            $MYSQL_COMMAND < $UPDATE
+            [[ $? != 0 ]] && exit 1
+        done
+        echo "Development updates applied"
+    else
+        echo "   No development update to process"
+    fi
+    break
+done
+  
 fi
 
 echo
