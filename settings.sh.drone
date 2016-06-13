@@ -19,14 +19,17 @@
 # - MySQL authentication: customize for your local setup ---------------------
 USER=wowstack
 PASS=GehupDoav2
-HOST=localhost
-LOGIN_PATH=wowstack
+HOST=127.0.0.1
+PROTOCOL=tcp
 
 # - Database settings: customize for your local setup ------------------------
-CHARACTER_DATABASE=wowstack_vanilla_characters
-REALM_DATABASE=wowstack_realm
-WORLD_DATABASE=wowstack_vanilla_world_classicdb
+CHARACTER_DATABASE=wowstack_test
+REALM_DATABASE=wowstack_test
+WORLD_DATABASE=wowstack_test
 
 # - Do not edit below! Here be dragon! ---------------------------------------
 OPTS=
-[ ! -z "${LOGIN_PATH}" ] && OPTS="${OPTS} --login-path=${LOGIN_PATH}"
+[ ! -z "${USER}" ] && OPTS="${OPTS} -u${USER}"
+[ ! -z "${PASS}" ] && OPTS="${OPTS} -p${PASS}"
+[ ! -z "${HOST}" ] && OPTS="${OPTS} -h${HOST}"
+[ ! -z "${PROTOCOL}" ] && OPTS="${OPTS} --protocol=${PROTOCOL}"

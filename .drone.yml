@@ -1,0 +1,34 @@
+clone:
+  depth: 1
+
+build:
+  image: wowstack/lua-mariadb:1.0
+  commands:
+    - cp -f ./settings.sh.drone ./settings.sh
+    - sleep 10
+    - ./import.sh
+    - rm -f ./settings.sh
+
+compose:
+  mariadb:
+    image: danielsreichenbach/mariadb:5.5
+    environment:
+      - MYSQL_ROOT_PASSWORD=do-not-use-me
+      - MYSQL_DATABASE=wowstack_test
+      - MYSQL_USER=wowstack
+      - MYSQL_PASSWORD=GehupDoav2
+
+# notify:
+#   webhook:
+#     urls:
+#       - https://talk.wowstack.io/hooks/$$MATTERMOST_BUILD_CHANNEL
+#     method: POST
+#     content_type: application/json
+#     template: '{"username": "Drone build robot", "icon_url": "https://avatars.githubusercontent.com/drone", "channel": "build-history", "text": "Build #{{ build.number }}: [[{{ repo.name }}](https://scratch.kogitoapp.com/{{ repo.full_name }}):[{{ build.branch }}](https://scratch.kogitoapp.com/{{ repo.full_name }}/src/{{ build.branch }})] [commit](https://scratch.kogitoapp.com/{{ repo.full_name }}/commit/{{ build.commit }}) pushed by {{ build.author }} completed with status [{{build.status}}](https://drone.kogitoapp.com/{{ repo.full_name }}/{{ build.number }})"}'
+#
+# publish:
+#   webhook:
+#     when:
+#       success: false
+#       failure: false
+#       change: true
